@@ -1,3 +1,7 @@
-<svg width="80" height="28" viewBox="0 0 80 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="0" y="21" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#0a0a0a">O1EB1</text>
+<svg width="90" height="28" viewBox="0 0 90 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 14C0 6.27 5.37 1 12 1C18.63 1 24 6.27 24 14C24 21.73 18.63 27 12 27C5.37 27 0 21.73 0 14ZM4 14C4 19.52 7.58 23 12 23C16.42 23 20 19.52 20 14C20 8.48 16.42 5 12 5C7.58 5 4 8.48 4 14Z" fill="#0a0a0a"/>
+  <path d="M28 3H32V27H28V3Z" fill="#0a0a0a"/>
+  <path d="M38 3H54V7H42V13H52V17H42V23H54V27H38V3Z" fill="#0a0a0a"/>
+  <path d="M58 3H68C72.42 3 76 5.69 76 10C76 12.5 74.5 14.5 72 15.5C75 16.5 77 18.5 77 22C77 26.31 73.42 27 69 27H58V3ZM62 13H67C69.21 13 71 11.88 71 10C71 8.12 69.21 7 67 7H62V13ZM62 23H68C70.76 23 72 21.88 72 20C72 18.12 70.76 17 68 17H62V23Z" fill="#0a0a0a"/>
+  <path d="M82 3H86V27H82V3Z" fill="#0a0a0a"/>
 </svg>
