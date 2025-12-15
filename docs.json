@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "O1EB1: База знаний по визам талантов",
+  "name": "O1EB1: Визы талантов в США",
   "colors": {
-    "primary": "#0ea5e9",
-    "light": "#38bdf8",
-    "dark": "#0284c7"
+    "primary": "#f97316",
+    "light": "#fb923c",
+    "dark": "#ea580c"
   },
   "favicon": "/logo/usa-flag.png",
   "logo": {
@@ -30,8 +30,12 @@
   "navbar": {
     "links": [
       {
-        "label": "Основной сайт",
-        "href": "https://www.o1eb1.com"
+        "label": "Помощь эксперта",
+        "href": "https://o1eb1.com/egor-akimov"
+      },
+      {
+        "label": "Telegram",
+        "href": "https://t.me/talentineveryone"
       }
     ]
   },
