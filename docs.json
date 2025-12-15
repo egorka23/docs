@@ -9,8 +9,8 @@
   },
   "favicon": "/logo/usa-flag.png",
   "logo": {
-    "light": "/logo/usa-flag.png",
-    "dark": "/logo/usa-flag.png"
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
   },
   "navigation": {
     "tabs": [
