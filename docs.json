@@ -2,24 +2,31 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "O1EB1: База знаний по визам талантов",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0ea5e9",
     "light": "#38bdf8",
     "dark": "#0284c7"
   },
-  "navigation": [
-    {
-      "group": "Административная проверка",
-      "pages": [
-        "administrative-check/faq"
-      ]
-    }
-  ],
+  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Визы талантов",
+        "groups": [
+          {
+            "group": "Административная проверка",
+            "pages": [
+              "administrative-check/faq"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "navbar": {
     "links": [
       {
