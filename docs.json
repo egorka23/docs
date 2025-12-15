@@ -66,6 +66,11 @@
   "seo": {
     "indexHiddenPages": false
   },
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-3GZ9ZEMRDM"
+    }
+  },
   "redirects": [
     {
       "source": "/",
