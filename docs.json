@@ -44,6 +44,12 @@
               "ai-tools/claude-code",
               "ai-tools/windsurf"
             ]
+          },
+          {
+            "group": "Административная проверка",
+            "pages": [
+              "administrative-check/faq"
+            ]
           }
         ]
       },
