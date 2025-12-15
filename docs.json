@@ -8,7 +8,10 @@
     "dark": "#061a2e"
   },
   "favicon": "/logo/usa-flag-small.png",
-  "logo": "/logo/usa-flag-small.png",
+  "logo": {
+    "light": "/logo/logo-with-text.svg",
+    "dark": "/logo/logo-with-text-dark.svg"
+  },
   "navigation": {
     "tabs": [
       {
