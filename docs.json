@@ -5,7 +5,11 @@
   "colors": {
     "primary": "#f97316",
     "light": "#fb923c",
-    "dark": "#ea580c"
+    "dark": "#ea580c",
+    "anchors": {
+      "from": "#f97316",
+      "to": "#ea580c"
+    }
   },
   "favicon": "/logo/usa-flag-small.png",
   "logo": {
@@ -22,6 +26,12 @@
             "pages": [
               "administrative-check/faq"
             ]
+          },
+          {
+            "group": "Сообщество",
+            "pages": [
+              "community"
+            ]
           }
         ]
       }
@@ -30,19 +40,32 @@
   "navbar": {
     "links": [
       {
-        "label": "Помощь эксперта",
-        "href": "https://www.o1eb1.com/help/egor"
+        "label": "Основной сайт",
+        "href": "https://o1eb1.com"
       },
       {
-        "label": "Telegram",
-        "href": "https://t.me/talentineveryone"
+        "label": "Помощь эксперта",
+        "href": "https://www.o1eb1.com/help/egor"
       }
-    ]
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Telegram-чат",
+      "href": "https://t.me/talentvisahelp"
+    }
   },
   "footer": {
     "socials": {
-      "telegram": "https://t.me/talentineveryone"
+      "telegram": "https://t.me/talentvisahelp",
+      "website": "https://o1eb1.com"
     }
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
+  "search": {
+    "prompt": "Поиск по базе знаний..."
   },
   "seo": {
     "indexHiddenPages": false
