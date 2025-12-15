@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Визы талантов O-1 / EB-1",
   "colors": {
-    "primary": "#000080",
-    "light": "#0000CD",
-    "dark": "#00005C"
+    "primary": "#0a2540",
+    "light": "#1a4070",
+    "dark": "#061a2e"
   },
   "favicon": "/logo/usa-flag-small.png",
   "logo": {
