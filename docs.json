@@ -5,11 +5,7 @@
   "colors": {
     "primary": "#f97316",
     "light": "#fb923c",
-    "dark": "#ea580c",
-    "anchors": {
-      "from": "#f97316",
-      "to": "#ea580c"
-    }
+    "dark": "#ea580c"
   },
   "favicon": "/logo/usa-flag-small.png",
   "logo": {
