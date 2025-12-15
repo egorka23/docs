@@ -1,5 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
   "name": "O1EB1: База знаний по визам талантов",
   "logo": {
     "light": "/logo/light.svg",
