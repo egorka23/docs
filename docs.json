@@ -35,6 +35,7 @@
             "group": "Истории успеха",
             "pages": [
               "success-stories/index",
+              "success-stories/cases-preview",
               "success-stories/eb1a-geodesist"
             ]
           },
