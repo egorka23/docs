@@ -32,6 +32,13 @@
             ]
           },
           {
+            "group": "Истории успеха",
+            "pages": [
+              "success-stories/index",
+              "success-stories/eb1a-geodesist"
+            ]
+          },
+          {
             "group": "Сообщество",
             "pages": [
               "community"
