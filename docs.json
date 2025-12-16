@@ -36,7 +36,21 @@
             "pages": [
               "success-stories/index",
               "success-stories/cases-preview",
-              "success-stories/eb1a-geodesist"
+              {
+                "group": "Подборки",
+                "pages": [
+                  "success-stories/premium",
+                  "success-stories/self-prepared",
+                  "success-stories/by-center/texas"
+                ]
+              },
+              {
+                "group": "По критериям",
+                "pages": [
+                  "success-stories/by-criteria/contributions",
+                  "success-stories/by-criteria/judging"
+                ]
+              }
             ]
           },
           {
