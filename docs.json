@@ -20,7 +20,14 @@
           {
             "group": "Административная проверка",
             "pages": [
-              "administrative-check/faq"
+              "administrative-check/faq",
+              "administrative-check/ds-5535",
+              "administrative-check/tal-mantis",
+              "administrative-check/expedite",
+              "administrative-check/congressional-inquiry",
+              "administrative-check/consulates",
+              "administrative-check/timelines",
+              "administrative-check/stem-publications"
             ]
           },
           {
