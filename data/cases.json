@@ -89,19 +89,36 @@
     },
     {
       "id": "presenter-eb1a",
-      "title": "Презентер/маркетолог",
-      "summary": "Premium апрув за 8 дней без RFE. Интервью в Бангкоке.",
+      "title": "Маркетолог (Человек-презентация)",
+      "summary": "35 рекомендательных писем, команда 7 человек. Premium апрув за 8 дней без RFE. Интервью в Бангкоке.",
       "visa": "EB-1A",
       "field": "Маркетинг",
       "service_center": null,
       "premium": true,
       "prep": "attorney",
+      "attorney": "Станислав Шамаев",
       "rfe": false,
       "criteria": ["membership", "press", "judging", "contributions", "critical_role", "salary"],
       "consulate_city": "Bangkok",
       "timeline_days": 8,
       "cost_usd": null,
-      "criteria_count": 6
+      "criteria_count": 6,
+      "rec_letters": 35,
+      "team_size": 7,
+      "prep_months": 10,
+      "nvc_to_interview_months": 10,
+      "details": {
+        "expert_letter": "Независимый эксперт из Болгарии",
+        "business_plan": "Маркетинговый план с P&L",
+        "timeline": {
+          "start": "2022-10-09",
+          "submit": "2023-07-27",
+          "approval": "2023-08-04",
+          "nvc": "2023-09-20",
+          "docs_accepted": "2023-12-06",
+          "interview": "2024-06-14"
+        }
+      }
     },
     {
       "id": "guitarist-eb1",
@@ -374,6 +391,27 @@
       "timeline_days": null,
       "cost_usd": null,
       "criteria_count": 6
+    },
+    {
+      "id": "malina-eb1",
+      "title": "EB-1 с Victoria Blumberg",
+      "summary": "3+ года работы с адвокатом. O-1, смена работодателя, EB-1 - все одобрены.",
+      "visa": "EB-1",
+      "field": null,
+      "service_center": null,
+      "premium": true,
+      "prep": "attorney",
+      "attorney": "Victoria Blumberg",
+      "rfe": false,
+      "criteria": [],
+      "consulate_city": null,
+      "timeline_days": null,
+      "cost_usd": null,
+      "criteria_count": null,
+      "details": {
+        "history": "Первый O-1 был с другим адвокатом - RFE без зачтенных критериев. Victoria пересобрала кейс с нуля. Позже смена работодателя за 1 неделю (апрув за 4 дня). EB-1 собран за 3 месяца.",
+        "notes": "Попали в декабрьские кейсы с задержкой по premium"
+      }
     }
   ]
 }
