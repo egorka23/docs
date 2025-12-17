@@ -17,6 +17,7 @@
       {
         "anchor": "Административная проверка",
         "icon": "shield-check",
+        "url": "administrative-check/faq",
         "groups": [
           {
             "group": "221(g) FAQ",
@@ -37,6 +38,7 @@
       {
         "anchor": "Истории успеха",
         "icon": "trophy",
+        "url": "success-stories/index",
         "groups": [
           {
             "group": "Кейсы",
@@ -75,6 +77,7 @@
       {
         "anchor": "Сообщество",
         "icon": "users",
+        "url": "community",
         "groups": [
           {
             "group": "Чаты",
