@@ -74,13 +74,14 @@
     {
       "id": "artist-eb1a",
       "title": "Художник после O-1",
-      "summary": "Premium, без RFE. Накопленный портфель с времен O-1B.",
+      "summary": "Premium. Накопленный портфель с времен O-1B. Апрув в начале августа.",
       "visa": "EB-1A",
       "field": "Искусство",
       "service_center": null,
       "premium": true,
       "prep": "attorney",
-      "rfe": false,
+      "attorney": "Michael Cataliotti",
+      "rfe": null,
       "criteria": ["awards", "authorship", "exhibitions", "membership"],
       "consulate_city": null,
       "timeline_days": null,
@@ -171,18 +172,23 @@
     {
       "id": "scientist-niw",
       "title": "Ученый materials science",
-      "summary": "Без рекомендательных писем. PhD + 350 цитирований.",
+      "summary": "2 рекомендательных письма (зависимое + независимое). 350 цитирований, h-index 12.",
       "visa": "EB-2 NIW",
       "field": "Наука",
       "service_center": null,
       "premium": false,
       "prep": "attorney",
+      "attorney": "WeGreened",
       "rfe": false,
       "criteria": [],
       "consulate_city": null,
       "timeline_days": 101,
       "cost_usd": null,
-      "criteria_count": null
+      "criteria_count": null,
+      "details": {
+        "rec_letters": 2,
+        "rec_letters_types": "1 зависимое (от бывшего US-начальника), 1 независимое (от европейского профессора)"
+      }
     },
     {
       "id": "fintech-niw",
