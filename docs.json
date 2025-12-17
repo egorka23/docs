@@ -31,7 +31,7 @@
       {
         "group": "Истории успеха",
         "pages": [
-          "success-stories",
+          "success-stories/index",
           "success-stories/cases-preview",
           "success-stories/premium",
           "success-stories/self-prepared",
