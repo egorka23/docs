@@ -41,7 +41,8 @@
       "rfe": null,
       "criteria": [],
       "consulate_city": "Chisinau",
-      "timeline_days": 42
+      "timeline_days": 42,
+      "context": "Начали с адвокатом советоваться, где проходить интервью. Европа отпала из-за отсутствия Шенгена у обоих, Казахстан отпал из-за того, что адвокат сказал, что там раньше посольство было не очень хорошим, а сейчас вообще ужас. Далее, мой личный кабинет заблокировали на 4…"
     },
     {
       "id": "retail-eb1a",
@@ -56,7 +57,9 @@
       "prep": "attorney",
       "rfe": null,
       "criteria": [],
-      "consulate_city": null
+      "consulate_city": null,
+      "context": "Получили одобрение вчера в 8 вечера в последний день одобрения (Техас), пришлось понервничать.",
+      "service_center_uncertain": true
     },
     {
       "id": "artist-eb1a",
@@ -70,9 +73,19 @@
       "prep": "attorney",
       "attorney": "Michael Cataliotti",
       "rfe": null,
-      "criteria": ["awards", "authorship", "exhibitions"],
+      "criteria": [
+        "awards",
+        "authorship",
+        "exhibitions"
+      ],
       "consulate_city": null,
-      "notes": "RFE был на O-1, не на EB-1A"
+      "notes": "RFE был на O-1, не на EB-1A",
+      "context": "Давно уже в штатах, прилетел как студент в школу, потом пошёл учиться живописи в академии фигуративного искусства. После визы F1 был OPT, потом с 2017 начал быстро собирать на O1, получил в то время RFE, все доотправил, через несколько лет…",
+      "claimed_criteria": [
+        "awards",
+        "authorship",
+        "exhibitions"
+      ]
     },
     {
       "id": "showbiz-niw",
@@ -87,9 +100,16 @@
       "prep": "attorney",
       "attorney": "Айя Балтабек",
       "rfe": null,
-      "criteria": ["awards"],
+      "criteria": [
+        "awards"
+      ],
       "consulate_city": null,
-      "timeline_days": 36
+      "timeline_days": 36,
+      "context": "Продюсер и менеджер в шоу-бизнесе. Работа с артистами, организация туров.",
+      "claimed_criteria": [
+        "awards"
+      ],
+      "service_center_uncertain": true
     },
     {
       "id": "scientist-niw",
@@ -102,12 +122,18 @@
       "premium": null,
       "prep": null,
       "rfe": null,
-      "criteria": ["authorship"],
+      "criteria": [
+        "authorship"
+      ],
       "consulate_city": null,
       "timeline_days": 101,
       "details": {
         "rec_letters": 2
-      }
+      },
+      "context": "Петиция была получена 16 июня, одобрена 25 сентября, извещение пришло сегодня",
+      "claimed_criteria": [
+        "authorship"
+      ]
     },
     {
       "id": "it-premium-eb1a",
@@ -120,9 +146,21 @@
       "premium": true,
       "prep": "mixed",
       "rfe": false,
-      "criteria": ["membership", "press", "critical_role", "authorship"],
+      "criteria": [
+        "membership",
+        "press",
+        "critical_role",
+        "authorship"
+      ],
       "consulate_city": null,
-      "notes": "Verification: 'апрув без него!' (без RFE)"
+      "notes": "Verification: 'апрув без него!' (без RFE)",
+      "context": "Договор оформила 28 апреля, кейс был готов к подаче 4.10 (здесь отмечу, что и команда адвоката хороша, но и я много работала со своей стороны). Подавала на ускоренное. Но не смотря на многие предостережения в чате, что по ускоренному часто…",
+      "claimed_criteria": [
+        "membership",
+        "press",
+        "critical_role",
+        "authorship"
+      ]
     },
     {
       "id": "biologist-niw",
@@ -137,7 +175,8 @@
       "rfe": null,
       "criteria": [],
       "consulate_city": null,
-      "timeline_days": 153
+      "timeline_days": 153,
+      "context": "PhD биолог. Подача из России, без переезда в США на момент подачи."
     },
     {
       "id": "fintech-niw",
@@ -151,9 +190,20 @@
       "premium": false,
       "prep": "mixed",
       "rfe": true,
-      "criteria": ["awards", "judging", "salary"],
+      "criteria": [
+        "awards",
+        "judging",
+        "salary"
+      ],
       "consulate_city": null,
-      "timeline_days": 210
+      "timeline_days": 210,
+      "context": "2. 05.2023 подали кейс , без премиума (Техас) 3. 08.2023 пришел бредовый RFE, как говорит адвокат ощущение что кейс не читали",
+      "claimed_criteria": [
+        "awards",
+        "judging",
+        "salary"
+      ],
+      "service_center_uncertain": true
     },
     {
       "id": "it-entrepreneur-o1a",
@@ -166,10 +216,26 @@
       "premium": false,
       "prep": "attorney",
       "rfe": false,
-      "criteria": ["awards", "membership", "judging", "critical_role", "salary", "authorship"],
+      "criteria": [
+        "awards",
+        "membership",
+        "judging",
+        "critical_role",
+        "salary",
+        "authorship"
+      ],
       "consulate_city": null,
       "timeline_days": 28,
-      "criteria_count": 6
+      "criteria_count": 6,
+      "context": "Итого шесть критериев. Апрув пришел за 4 недели, подача без премиума и без RFE. Поскольку RFE не пришел, сложно сказать, что именно было засчитано в моем кейсе.",
+      "claimed_criteria": [
+        "awards",
+        "membership",
+        "judging",
+        "critical_role",
+        "salary",
+        "authorship"
+      ]
     },
     {
       "id": "sports-niw",
@@ -184,7 +250,8 @@
       "rfe": null,
       "criteria": [],
       "consulate_city": "Warsaw",
-      "notes": "Ретрогресс по бюллетеню, 10 месяцев ожидания current"
+      "notes": "Ретрогресс по бюллетеню, 10 месяцев ожидания current",
+      "context": "3,5 месяца до DQ, чуть не успели и начался ретрогресс по бюллетеню, ожидание current для нас — 10 месяцев. От месяца current до повторного DQ — 29 дней. От повторного DQ до назначения собеса — неделя. От interview letter до…"
     },
     {
       "id": "presenter-eb1a",
@@ -198,7 +265,13 @@
       "prep": "mixed",
       "attorney": "Станислав Шамаев",
       "rfe": false,
-      "criteria": ["awards", "membership", "press", "contributions", "salary"],
+      "criteria": [
+        "awards",
+        "membership",
+        "press",
+        "contributions",
+        "salary"
+      ],
       "consulate_city": "Bangkok",
       "timeline_days": 8,
       "rec_letters": 35,
@@ -213,7 +286,15 @@
           "docs_accepted": "2023-12-06",
           "interview": "2024-06-14"
         }
-      }
+      },
+      "context": "4 августа 2023 - апрув без RFE 20 сентября 2023 - письмо из NVC, что можно подавать документы и оплачивать пошлины - начал сбор",
+      "claimed_criteria": [
+        "awards",
+        "membership",
+        "press",
+        "contributions",
+        "salary"
+      ]
     },
     {
       "id": "fintech-niw-2",
@@ -226,10 +307,18 @@
       "premium": null,
       "prep": "attorney",
       "rfe": true,
-      "criteria": ["judging", "contributions"],
+      "criteria": [
+        "judging",
+        "contributions"
+      ],
       "consulate_city": null,
       "timeline_days": 626,
-      "notes": "Подача декабрь 2022, одобрение сентябрь 2024"
+      "notes": "Подача декабрь 2022, одобрение сентябрь 2024",
+      "context": "05.21.2024 — получил RFE. Писал бОльшую часть бизнес-планов сам, было просто — профильную деятельность действительно веду еще с 2022, открыл Inc. в августе 2023, подписал MOU с локальными компаниями, включили их в ответ. Michael достал пару Assessment letters от американских…",
+      "claimed_criteria": [
+        "judging",
+        "contributions"
+      ]
     },
     {
       "id": "surabaya-o1",
@@ -243,7 +332,8 @@
       "prep": null,
       "rfe": null,
       "criteria": [],
-      "consulate_city": "Surabaya"
+      "consulate_city": "Surabaya",
+      "context": "Сегодня получила апрув по О1 в Сурабае, Индонезия. Вопросов было очень мало, про то чем занимаюсь, впервые ли получаю о1, куда собираюсь ехать. Интервью суперкорототкое, но весь процесс довольно долго, около 3 часов все вместе заняло от входа до выхода…"
     },
     {
       "id": "guitarist-eb1",
@@ -258,7 +348,8 @@
       "rfe": false,
       "criteria": [],
       "consulate_city": null,
-      "timeline_days": 330
+      "timeline_days": 330,
+      "context": "Пришел аппрув по I-140 на Eb-1 после 11 месяцев ожидания по regular processing. Без RFE. Сейчас ожидаю письмо от NVC."
     },
     {
       "id": "it-stem-niw",
@@ -274,7 +365,8 @@
       "criteria": [],
       "consulate_city": null,
       "timeline_days": 510,
-      "notes": "Подача сентябрь 2023, RFE ноябрь 2024, апрув февраль 2025"
+      "notes": "Подача сентябрь 2023, RFE ноябрь 2024, апрув февраль 2025",
+      "context": "Подача – сентябрь 2023 из США, RFE – ноябрь 2024 (well positioned and national importance), ответил в январе, approve – фев 2025. STEM. IT."
     },
     {
       "id": "ballroom-eb1a",
@@ -287,8 +379,14 @@
       "premium": true,
       "prep": null,
       "rfe": true,
-      "criteria": ["awards"],
-      "consulate_city": null
+      "criteria": [
+        "awards"
+      ],
+      "consulate_city": null,
+      "context": "Подали в третий, пришел RFE. И вот, на 14й день ожидания по премиуму после подачи ответа на RFE я получила долгожданный аппрув!",
+      "claimed_criteria": [
+        "awards"
+      ]
     },
     {
       "id": "malina-eb1",
@@ -302,11 +400,17 @@
       "prep": "attorney",
       "attorney": "Victoria Blumberg",
       "rfe": true,
-      "criteria": ["awards"],
+      "criteria": [
+        "awards"
+      ],
       "consulate_city": null,
       "details": {
         "history": "Первый O-1 был с другим адвокатом - RFE без зачтенных критериев. Victoria пересобрала кейс. Смена работодателя за 1 неделю (апрув 4 дня). EB-1 собран за 3 месяца."
-      }
+      },
+      "context": "Раньше мне доводилось работать с разными юристами, вкл. часто обсуждаемых в этом чате, и первый O-1 оформлял другой специалист. Всё закончилось неприятным RFE, где не приняли ни одного критерия. Тогда я и попала к Виктории. Она буквально с нуля погрузилась…",
+      "claimed_criteria": [
+        "awards"
+      ]
     },
     {
       "id": "art-family-eb1",
@@ -321,7 +425,8 @@
       "rfe": null,
       "criteria": [],
       "consulate_city": null,
-      "notes": "Январь 2024 - подача, апрель/май 2025 - одобрение"
+      "notes": "Январь 2024 - подача, апрель/май 2025 - одобрение",
+      "context": "Семейная подача. Муж-петиционер, жена-бенефициар. Adjustment of Status изнутри США."
     },
     {
       "id": "architect-eb1",
@@ -336,8 +441,17 @@
       "prep": "attorney",
       "rfe": true,
       "noid": true,
-      "criteria": ["awards", "salary"],
-      "consulate_city": null
+      "criteria": [
+        "awards",
+        "salary"
+      ],
+      "consulate_city": null,
+      "context": "Участвую в конкурсах, пишу статьи, берут массовые интервью И к концу 2023 года петиция отправляется в техас. Начало 2024 получен noid. Откладываю все, отказываюсь от муверта. Настраиваюсь на отказ от всего. Но пережив, нахожу юриста, который оценивает подачу, нойд, кейс…",
+      "claimed_criteria": [
+        "awards",
+        "salary"
+      ],
+      "service_center_uncertain": true
     },
     {
       "id": "music-business-eb1a",
@@ -350,9 +464,15 @@
       "premium": true,
       "prep": null,
       "rfe": false,
-      "criteria": ["awards"],
+      "criteria": [
+        "awards"
+      ],
       "consulate_city": null,
-      "timeline_days": 15
+      "timeline_days": 15,
+      "context": "Здравствуйте! Сегодня получила апрув по ЕБ1А. сфера музыкального бизнеса (работаю Тур и [имя]) на 15й день по премиум процессингу в центре Небраски. Без РФЕ. До этого были две О-1. Хотела тут поделиться так как не часто вижу кого-то из…",
+      "claimed_criteria": [
+        "awards"
+      ]
     },
     {
       "id": "geodesist-eb1a",
@@ -365,11 +485,33 @@
       "premium": true,
       "prep": "self",
       "rfe": null,
-      "criteria": ["awards", "membership", "press", "judging", "contributions", "critical_role", "salary", "authorship", "exhibitions"],
+      "criteria": [
+        "awards",
+        "membership",
+        "press",
+        "judging",
+        "contributions",
+        "critical_role",
+        "salary",
+        "authorship",
+        "exhibitions"
+      ],
       "consulate_city": null,
       "timeline_days": 30,
       "cost_usd": 4500,
-      "criteria_count": 9
+      "criteria_count": 9,
+      "context": "Геодезист-картограф. Полная самоподача за 18 дней. Опыт написания экспертных текстов помог.",
+      "claimed_criteria": [
+        "awards",
+        "membership",
+        "press",
+        "judging",
+        "contributions",
+        "critical_role",
+        "salary",
+        "authorship",
+        "exhibitions"
+      ]
     },
     {
       "id": "designer-eb1a",
@@ -382,9 +524,27 @@
       "premium": true,
       "prep": "mixed",
       "rfe": null,
-      "criteria": ["awards", "membership", "judging", "contributions", "critical_role", "salary", "exhibitions"],
+      "criteria": [
+        "awards",
+        "membership",
+        "judging",
+        "contributions",
+        "critical_role",
+        "salary",
+        "exhibitions"
+      ],
       "consulate_city": null,
-      "criteria_count": 7
+      "criteria_count": 7,
+      "context": "Художник-дизайнер. Самоподача с мужем. 7 критериев заявлено.",
+      "claimed_criteria": [
+        "awards",
+        "membership",
+        "judging",
+        "contributions",
+        "critical_role",
+        "salary",
+        "exhibitions"
+      ]
     },
     {
       "id": "marketing-blogging-eb1a",
@@ -397,8 +557,22 @@
       "premium": true,
       "prep": "mixed",
       "rfe": false,
-      "criteria": ["awards", "membership", "press", "contributions", "salary"],
-      "consulate_city": null
+      "criteria": [
+        "awards",
+        "membership",
+        "press",
+        "contributions",
+        "salary"
+      ],
+      "consulate_city": null,
+      "context": "Привет! Получила с апрув без RFE по EB1a. 🎉Делюсь опытом) У меня в кейсе было много составляющих, плюс были строгие сроки. Поэтому решила работать под ключ, с агенством iDreem. До этого брала несколько консультаций, как у отдельных юристов, так и…",
+      "claimed_criteria": [
+        "awards",
+        "membership",
+        "press",
+        "contributions",
+        "salary"
+      ]
     },
     {
       "id": "art-niw-warsaw",
@@ -411,10 +585,16 @@
       "premium": true,
       "prep": "mixed",
       "rfe": null,
-      "criteria": ["awards"],
+      "criteria": [
+        "awards"
+      ],
       "consulate_city": "Warsaw",
       "timeline_days": 7,
-      "notes": "PD 28.08.2023, одобрение 04.09.2023, интервью июль 2025"
+      "notes": "PD 28.08.2023, одобрение 04.09.2023, интервью июль 2025",
+      "context": "PD 28.08.2023. Рассмотрение в Небраске. Премиум. 4 сентября 2023 письмо с одобрением. NVC прислали welcome letter примерно через 2 недели. Документы засабмитили в начале октября 2023. DQ в начале ноября 2023.",
+      "claimed_criteria": [
+        "awards"
+      ]
     },
     {
       "id": "software-o1",
@@ -427,8 +607,20 @@
       "premium": null,
       "prep": null,
       "rfe": null,
-      "criteria": ["membership", "press", "judging", "authorship"],
-      "consulate_city": null
+      "criteria": [
+        "membership",
+        "press",
+        "judging",
+        "authorship"
+      ],
+      "consulate_city": null,
+      "context": "5. СМИ - 6 публикаций в разных источниках 2022-2025 + интервью на YouTube",
+      "claimed_criteria": [
+        "membership",
+        "press",
+        "judging",
+        "authorship"
+      ]
     }
   ]
 }
