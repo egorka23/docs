@@ -277,7 +277,7 @@ def generate_vermont_mdx(cases):
 
 def group_cases_by_visa(cases):
     groups = defaultdict(list)
-    visa_order = ["EB-1A", "EB-1", "EB-2 NIW", "O-1"]
+    visa_order = ["EB-1A", "EB-2 NIW", "O-1"]
 
     for case in cases:
         visa = case.get("visa", "Other")
