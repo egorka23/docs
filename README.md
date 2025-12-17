@@ -28,6 +28,14 @@ mint dev
 
 View your local preview at `http://localhost:3000`.
 
+## Scripts
+
+Update sidebar navigation with case counts from `data/cases.json`:
+
+```
+python3 scripts/update_success_stories_nav_counts.py
+```
+
 ## Publishing changes
 
 Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.

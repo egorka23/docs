@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Update sidebar titles in success-stories MDX files with case counts.
+Update navigation labels in docs.json with case counts from data/cases.json.
 
 Source of truth: data/cases.json
 
@@ -11,12 +11,17 @@ Counts:
   - vsc_count: cases where service_center == "VSC"
   - nsc_count: cases where service_center == "NSC"
 
-Updates:
-  - success-stories/premium.mdx: "Premium (X)"
-  - success-stories/self-prepared.mdx: "Самоподача (X)"
-  - success-stories/with-rfe.mdx: "С RFE (X)"
-  - success-stories/by-center/vermont.mdx: "Vermont (X)"
-  - success-stories/by-center/nebraska.mdx: "Nebraska (X)"
+Updates docs.json navigation:
+  - "success-stories/premium" -> label "Premium (X)"
+  - "success-stories/self-prepared" -> label "Самоподача (X)"
+  - "success-stories/with-rfe" -> label "С RFE (X)"
+  - "success-stories/by-center/vermont" -> label "Vermont (VSC) (X)"
+  - "success-stories/by-center/nebraska" -> label "Nebraska (NSC) (X)"
+
+Idempotent: re-running correctly updates numbers.
+
+Usage:
+  python3 scripts/update_success_stories_nav_counts.py
 """
 
 import json
@@ -42,85 +47,91 @@ def count_cases(cases: list[dict]) -> dict[str, int]:
     }
 
     for case in cases:
-        # Premium: cases where premium == true
         if case.get('premium') is True:
             counts['premium'] += 1
-
-        # Self-prepared: cases where prep == "self"
         if case.get('prep') == 'self':
             counts['self'] += 1
-
-        # RFE: cases where rfe == true
         if case.get('rfe') is True:
             counts['rfe'] += 1
-
-        # VSC: cases where service_center == "VSC"
         if case.get('service_center') == 'VSC':
             counts['vsc'] += 1
-
-        # NSC: cases where service_center == "NSC"
         if case.get('service_center') == 'NSC':
             counts['nsc'] += 1
 
     return counts
 
 
-def update_sidebar_title(file_path: Path, new_title: str) -> bool:
-    """Update sidebarTitle in MDX frontmatter."""
-    if not file_path.exists():
-        print(f"  ⚠️  File not found: {file_path}")
-        return False
+def strip_count_suffix(label: str) -> str:
+    """Remove existing count suffix like ' (12)' from label."""
+    return re.sub(r'\s*\(\d+\)\s*$', '', label)
 
-    content = file_path.read_text(encoding='utf-8')
 
-    # Match sidebarTitle in frontmatter
-    pattern = r'^(sidebarTitle:\s*["\'])([^"\']+)(["\'])$'
+def update_navigation(docs: dict, counts: dict[str, int]) -> dict:
+    """Update navigation labels with counts."""
 
-    def replacer(match):
-        quote_start = match.group(1)
-        quote_end = match.group(3)
-        return f'{quote_start}{new_title}{quote_end}'
+    # Mapping: page path -> (base_label, count_key)
+    page_config = {
+        'success-stories/premium': ('Premium', 'premium'),
+        'success-stories/self-prepared': ('Самоподача', 'self'),
+        'success-stories/with-rfe': ('С RFE', 'rfe'),
+        'success-stories/by-center/vermont': ('Vermont (VSC)', 'vsc'),
+        'success-stories/by-center/nebraska': ('Nebraska (NSC)', 'nsc'),
+    }
 
-    new_content, count = re.subn(pattern, replacer, content, flags=re.MULTILINE)
+    def process_pages(pages: list) -> list:
+        """Recursively process pages list."""
+        result = []
+        for item in pages:
+            if isinstance(item, str):
+                # Simple string page reference
+                if item in page_config:
+                    base_label, count_key = page_config[item]
+                    result.append({
+                        'page': item,
+                        'title': f"{base_label} ({counts[count_key]})"
+                    })
+                else:
+                    result.append(item)
+            elif isinstance(item, dict):
+                if 'page' in item:
+                    # Page object - update title if needed
+                    page_path = item['page']
+                    if page_path in page_config:
+                        base_label, count_key = page_config[page_path]
+                        item = item.copy()
+                        item['title'] = f"{base_label} ({counts[count_key]})"
+                    result.append(item)
+                elif 'group' in item:
+                    # Nested group
+                    new_item = item.copy()
+                    if 'pages' in item:
+                        new_item['pages'] = process_pages(item['pages'])
+                    result.append(new_item)
+                else:
+                    result.append(item)
+            else:
+                result.append(item)
+        return result
 
-    if count == 0:
-        print(f"  ⚠️  No sidebarTitle found in: {file_path}")
-        return False
+    # Process navigation structure
+    if 'navigation' in docs:
+        nav = docs['navigation']
+        if 'tabs' in nav:
+            for tab in nav['tabs']:
+                if 'groups' in tab:
+                    for group in tab['groups']:
+                        if 'pages' in group:
+                            group['pages'] = process_pages(group['pages'])
 
-    file_path.write_text(new_content, encoding='utf-8')
-    return True
+    return docs
 
 
 def main():
-    # Determine paths
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
 
     cases_path = project_root / 'data' / 'cases.json'
-
-    # Define files to update with their new title templates
-    files_config = {
-        'premium': {
-            'path': project_root / 'success-stories' / 'premium.mdx',
-            'template': 'Premium ({count})',
-        },
-        'self': {
-            'path': project_root / 'success-stories' / 'self-prepared.mdx',
-            'template': 'Самоподача ({count})',
-        },
-        'rfe': {
-            'path': project_root / 'success-stories' / 'with-rfe.mdx',
-            'template': 'С RFE ({count})',
-        },
-        'vsc': {
-            'path': project_root / 'success-stories' / 'by-center' / 'vermont.mdx',
-            'template': 'Vermont ({count})',
-        },
-        'nsc': {
-            'path': project_root / 'success-stories' / 'by-center' / 'nebraska.mdx',
-            'template': 'Nebraska ({count})',
-        },
-    }
+    docs_path = project_root / 'docs.json'
 
     print("📊 Loading cases from data/cases.json...")
     cases = load_cases(cases_path)
@@ -132,16 +143,22 @@ def main():
         print(f"   {key}: {count}")
     print()
 
-    print("📝 Updating sidebarTitles...")
-    updated = 0
-    for key, config in files_config.items():
-        new_title = config['template'].format(count=counts[key])
-        rel_path = config['path'].relative_to(project_root)
-        print(f"   {rel_path}: \"{new_title}\"")
-        if update_sidebar_title(config['path'], new_title):
-            updated += 1
+    print("📝 Updating docs.json navigation...")
+    with open(docs_path, 'r', encoding='utf-8') as f:
+        docs = json.load(f)
 
-    print(f"\n✅ Updated {updated}/{len(files_config)} files")
+    docs = update_navigation(docs, counts)
+
+    with open(docs_path, 'w', encoding='utf-8') as f:
+        json.dump(docs, f, ensure_ascii=False, indent=2)
+        f.write('\n')
+
+    print("✅ Updated docs.json with nav counts:")
+    print(f"   - Premium ({counts['premium']})")
+    print(f"   - Самоподача ({counts['self']})")
+    print(f"   - С RFE ({counts['rfe']})")
+    print(f"   - Vermont (VSC) ({counts['vsc']})")
+    print(f"   - Nebraska (NSC) ({counts['nsc']})")
 
 
 if __name__ == '__main__':
