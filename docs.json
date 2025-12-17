@@ -15,7 +15,8 @@
   "navigation": {
     "groups": [
       {
-        "group": "Административная проверка",
+        "group": "АДМИНИСТРАТИВНАЯ ПРОВЕРКА",
+        "icon": "shield-check",
         "pages": [
           "administrative-check/faq",
           "administrative-check/ds-5535",
@@ -29,7 +30,8 @@
         ]
       },
       {
-        "group": "Истории успеха",
+        "group": "ИСТОРИИ УСПЕХА",
+        "icon": "trophy",
         "pages": [
           "success-stories/index",
           "success-stories/cases-preview",
@@ -45,7 +47,8 @@
         ]
       },
       {
-        "group": "Сообщество",
+        "group": "СООБЩЕСТВО",
+        "icon": "users",
         "pages": [
           "community"
         ]
