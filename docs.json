@@ -33,26 +33,11 @@
         "pages": [
           "success-stories",
           "success-stories/cases-preview",
-          {
-            "page": "success-stories/premium",
-            "title": "Premium (11)"
-          },
-          {
-            "page": "success-stories/self-prepared",
-            "title": "Самоподача (1)"
-          },
-          {
-            "page": "success-stories/with-rfe",
-            "title": "С RFE (6)"
-          },
-          {
-            "page": "success-stories/by-center/vermont",
-            "title": "Vermont (VSC) (1)"
-          },
-          {
-            "page": "success-stories/by-center/nebraska",
-            "title": "Nebraska (NSC) (3)"
-          }
+          "success-stories/premium",
+          "success-stories/self-prepared",
+          "success-stories/with-rfe",
+          "success-stories/by-center/vermont",
+          "success-stories/by-center/nebraska"
         ]
       },
       {
