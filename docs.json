@@ -38,12 +38,12 @@
       {
         "anchor": "Истории успеха",
         "icon": "trophy",
-        "url": "success-stories/index",
+        "url": "success-stories",
         "groups": [
           {
             "group": "Кейсы",
             "pages": [
-              "success-stories/index",
+              "success-stories",
               "success-stories/cases-preview"
             ]
           },
