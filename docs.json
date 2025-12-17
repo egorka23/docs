@@ -13,12 +13,13 @@
     "dark": "/logo/logo-with-text-dark.svg"
   },
   "navigation": {
-    "tabs": [
+    "anchors": [
       {
-        "tab": "Визы талантов",
+        "anchor": "Административная проверка",
+        "icon": "shield-check",
         "groups": [
           {
-            "group": "Административная проверка",
+            "group": "221(g) FAQ",
             "pages": [
               "administrative-check/faq",
               "administrative-check/ds-5535",
@@ -30,41 +31,53 @@
               "administrative-check/timelines",
               "administrative-check/stem-publications"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "anchor": "Истории успеха",
+        "icon": "trophy",
+        "groups": [
           {
-            "group": "Истории успеха",
+            "group": "Кейсы",
             "pages": [
               "success-stories/index",
-              "success-stories/cases-preview",
-              {
-                "group": "Подборки",
-                "pages": [
-                  {
-                    "page": "success-stories/premium",
-                    "title": "Premium (11)"
-                  },
-                  {
-                    "page": "success-stories/self-prepared",
-                    "title": "Самоподача (1)"
-                  },
-                  {
-                    "page": "success-stories/with-rfe",
-                    "title": "С RFE (6)"
-                  },
-                  {
-                    "page": "success-stories/by-center/vermont",
-                    "title": "Vermont (VSC) (1)"
-                  },
-                  {
-                    "page": "success-stories/by-center/nebraska",
-                    "title": "Nebraska (NSC) (3)"
-                  }
-                ]
-              }
+              "success-stories/cases-preview"
             ]
           },
           {
-            "group": "Сообщество",
+            "group": "Подборки",
+            "pages": [
+              {
+                "page": "success-stories/premium",
+                "title": "Premium (11)"
+              },
+              {
+                "page": "success-stories/self-prepared",
+                "title": "Самоподача (1)"
+              },
+              {
+                "page": "success-stories/with-rfe",
+                "title": "С RFE (6)"
+              },
+              {
+                "page": "success-stories/by-center/vermont",
+                "title": "Vermont (VSC) (1)"
+              },
+              {
+                "page": "success-stories/by-center/nebraska",
+                "title": "Nebraska (NSC) (3)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anchor": "Сообщество",
+        "icon": "users",
+        "groups": [
+          {
+            "group": "Чаты",
             "pages": [
               "community"
             ]
