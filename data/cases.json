@@ -32,7 +32,7 @@
       "id": "dancers-o1",
       "source_id": "tractor_18171",
       "title": "Танцоры O-1/O-2",
-      "summary": "Начали с адвокатом советоваться, где проходить интервью",
+      "summary": "Танцоры O-1/O-2, интервью в Кишинёве. Выбор места интервью с адвокатом.",
       "visa": "O-1",
       "field": "Искусство",
       "service_center": "VSC",
@@ -43,7 +43,7 @@
       "consulate_city": "Chisinau",
       "timeline_days": 42,
       "context": "Начали с адвокатом советоваться, где проходить интервью. Европа отпала из-за отсутствия Шенгена у обоих, Казахстан отпал из-за того, что адвокат сказал, что там раньше посольство было не очень хорошим, а сейчас вообще ужас. Далее, мой личный кабинет заблокировали на 4…",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "retail-eb1a",
@@ -61,13 +61,13 @@
       "consulate_city": null,
       "context": "Получили одобрение вчера в 8 вечера в последний день одобрения (Техас), пришлось понервничать.",
       "service_center_uncertain": true,
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "artist-eb1a",
       "source_id": "tractor_59055",
       "title": "Художник после O-1",
-      "summary": "После визы F1 был OPT, потом с 2017 начал быстро собирать на O1, получил в то время RFE, все доотпра...",
+      "summary": "После визы F1 был OPT, потом с 2017 начал быстро собирать на O1, получил в то время RFE, все доотправил, через несколько лет…",
       "visa": "EB-1A",
       "field": "Искусство",
       "service_center": null,
@@ -87,13 +87,13 @@
         "authorship",
         "exhibitions"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "showbiz-niw",
       "source_id": "tractor_67697",
       "title": "Бизнесмен шоу-бизнеса",
-      "summary": "Кейс собирали 2-2,5 месяца за пределами США",
+      "summary": "Одобрение 03 октября 2023 (в USCIS трэкере увидели 05",
       "visa": "EB-2 NIW",
       "field": "Бизнес",
       "service_center": null,
@@ -111,7 +111,7 @@
         "awards"
       ],
       "service_center_uncertain": true,
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "scientist-niw",
@@ -137,13 +137,13 @@
         "authorship"
       ],
       "notes": "Также упоминается в talent_v_kazhdom (talentvk_16827)",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "it-premium-eb1a",
       "source_id": "tractor_72299",
       "title": "IT специалист EB-1A",
-      "summary": "Договор оформила 28 апреля, кейс был готов к подаче 4",
+      "summary": "Подавала на ускоренное",
       "visa": "EB-1A",
       "field": "IT",
       "service_center": null,
@@ -165,7 +165,7 @@
         "critical_role",
         "authorship"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "biologist-niw",
@@ -191,7 +191,7 @@
       ],
       "merged_from": "eb2niw_diy_16442",
       "notes": "Также упоминается в talent_v_kazhdom (talentvk_22458)",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "fintech-niw",
@@ -226,7 +226,7 @@
       ],
       "service_center_uncertain": true,
       "merged_from": "eb2niw_diy_16463",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "it-entrepreneur-o1a",
@@ -259,13 +259,13 @@
         "salary",
         "authorship"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "sports-niw",
       "source_id": "tractor_88368",
       "title": "EB-2 NIW Спорт",
-      "summary": "3,5 месяца до DQ, чуть не успели и начался ретрогресс по бюллетеню, ожидание current для нас — 10 ме...",
+      "summary": "От интервью до паспортов с визами — 1 рабочий день",
       "visa": "EB-2 NIW",
       "field": "Спорт",
       "service_center": null,
@@ -280,7 +280,7 @@
         "NVC / DQ / DS-260 / консульская часть"
       ],
       "merged_from": "eb2niw_diy_23795",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "presenter-eb1a",
@@ -323,13 +323,13 @@
         "contributions",
         "salary"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "fintech-niw-2",
       "source_id": "tractor_113628",
       "title": "IT/Финтех предприниматель",
-      "summary": "Ответ на RFE около 300 страниц",
+      "summary": "2022, получил RFE 05",
       "visa": "EB-2 NIW",
       "field": "IT",
       "service_center": null,
@@ -348,7 +348,7 @@
         "judging",
         "contributions"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "surabaya-o1",
@@ -364,7 +364,7 @@
       "criteria": [],
       "consulate_city": "Surabaya",
       "context": "Сегодня получила апрув по О1 в Сурабае, Индонезия. Вопросов было очень мало, про то чем занимаюсь, впервые ли получаю о1, куда собираюсь ехать. Интервью суперкорототкое, но весь процесс довольно долго, около 3 часов все вместе заняло от входа до выхода…",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "guitarist-eb1",
@@ -380,14 +380,14 @@
       "criteria": [],
       "consulate_city": null,
       "timeline_days": 330,
-      "context": "Пришел аппрув по I-140 на Eb-1 после 11 месяцев ожидания по regular processing. Без RFE. Сейчас ожидаю письмо от NVC.",
+      "context": "Сейчас ожидаю письмо от NVC.",
       "hide_context": true
     },
     {
       "id": "it-stem-niw",
       "source_id": "tractor_140205",
       "title": "IT специалист STEM",
-      "summary": "Подача – сентябрь 2023 из США, RFE – ноябрь 2024 (well positioned and national importance), ответил ...",
+      "summary": "Подача – сентябрь 2023 из США, RFE – ноябрь 2024 (well positioned and national importance), ответил в январе, approve – фев 2025",
       "visa": "EB-2 NIW",
       "field": "IT",
       "service_center": null,
@@ -399,13 +399,13 @@
       "timeline_days": 510,
       "notes": "Подача сентябрь 2023, RFE ноябрь 2024, апрув февраль 2025",
       "context": "Подача – сентябрь 2023 из США, RFE – ноябрь 2024 (well positioned and national importance), ответил в январе, approve – фев 2025. STEM. IT.",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "ballroom-eb1a",
       "source_id": "tractor_142177",
       "title": "Бальные танцы",
-      "summary": "Подали в третий, пришел RFE",
+      "summary": "И вот, на 14й день ожидания по премиуму после подачи ответа на RFE я получила долгожданный аппрув",
       "visa": "EB-1A",
       "field": "Искусство",
       "service_center": null,
@@ -420,13 +420,13 @@
       "claimed_criteria": [
         "awards"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "malina-eb1",
       "source_id": "tractor_144393",
       "title": "EB-1A Бизнес (смена адвоката)",
-      "summary": "Всё закончилось RFE, где не приняли ни одного критерия",
+      "summary": "Итог - успешное одобрение EB-1A",
       "visa": "EB-1A",
       "field": "Бизнес",
       "service_center": null,
@@ -444,13 +444,13 @@
       "claimed_criteria": [
         "awards"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "art-family-eb1",
       "source_id": "tractor_151727",
       "title": "EB-1A Искусство (семейная подача)",
-      "summary": "Одобрение (по словам автора).",
+      "summary": "Муж-петиционер, жена-бенефициар",
       "visa": "EB-1A",
       "field": "Искусство",
       "service_center": null,
@@ -467,7 +467,7 @@
       "id": "architect-eb1",
       "source_id": "tractor_152684",
       "title": "Архитектор",
-      "summary": "Участвую в конкурсах, пишу статьи, берут массовые интервью И к концу 2023 года петиция отправляется ...",
+      "summary": "Участвую в конкурсах, пишу статьи, берут массовые интервью И к концу 2023 года петиция отправляется в техас",
       "visa": "EB-1A",
       "field": "Архитектура",
       "service_center": null,
@@ -481,13 +481,13 @@
         "salary"
       ],
       "consulate_city": null,
-      "context": "Участвую в конкурсах, пишу статьи, берут массовые интервью И к концу 2023 года петиция отправляется в техас. Начало 2024 получен noid. Откладываю все, отказываюсь от муверта. Настраиваюсь на отказ от всего. Но пережив, нахожу юриста, который оценивает подачу, нойд, кейс…",
+      "context": "Начало 2024 получен noid. Откладываю все, отказываюсь от муверта. Настраиваюсь на отказ от всего. Но пережив, нахожу юриста, который оценивает подачу, нойд, кейс….",
       "claimed_criteria": [
         "awards",
         "salary"
       ],
       "service_center_uncertain": true,
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "music-business-eb1a",
@@ -509,13 +509,13 @@
       "claimed_criteria": [
         "awards"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "geodesist-eb1a",
       "source_id": "tractor_155443",
       "title": "Геодезист-картограф",
-      "summary": "Мы с мужем сами написали петицию за 18 дней, в эти дни также входит получение рекомендательных писем",
+      "summary": "На 19 день подали и через 11 рабочих дней Центр Небраска прислал одобрение",
       "visa": "EB-1A",
       "field": "Наука",
       "service_center": "NSC",
@@ -547,13 +547,13 @@
         "salary",
         "authorship"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "designer-eb1a",
       "source_id": "tractor_155445",
       "title": "Художник-дизайнер",
-      "summary": "Кроме членства в проф",
+      "summary": "Госпошлины за петицию с премиум процессингом $3,800",
       "visa": "EB-1A",
       "field": "Искусство",
       "service_center": null,
@@ -582,7 +582,7 @@
         "salary",
         "exhibitions"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "marketing-blogging-eb1a",
@@ -611,7 +611,7 @@
         "contributions",
         "salary"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "art-niw-warsaw",
@@ -634,13 +634,13 @@
       "claimed_criteria": [
         "awards"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "software-o1",
       "source_id": "tractor_159924",
-      "title": "Software Engineer O-1",
-      "summary": "Одобрение (по словам автора).",
+      "title": "Software Engineer O-1 (IT)",
+      "summary": "Одобрение O-1 для Software Engineer. 6 критериев, включая СМИ публикации.",
       "visa": "O-1",
       "field": "IT",
       "service_center": null,
@@ -668,7 +668,7 @@
       "source_id": "eb2niw_diy_11625",
       "collection": "eb2niw_diy",
       "title": "EB-2 NIW (упрощение Байдена)",
-      "summary": "Когда я подавалась в 2021 году мой адвокат сказала нету шансов, когда я получила RFE она сказала что...",
+      "summary": "Когда я подавалась в 2021 году мой адвокат сказала нету шансов, когда я получила RFE она сказала что шансы 50/50",
       "visa": "EB-2 NIW",
       "field": null,
       "service_center": null,
@@ -678,14 +678,14 @@
       "criteria": [],
       "consulate_city": null,
       "context": "Это администрация Байдена упростила in order to increase number of professionals with higher skilled degree. Когда я подавалась в 2021 году мой адвокат сказала нету шансов, когда я получила RFE она сказала что шансы 50/50.",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "ecommerce-eb1a-warsaw",
       "source_id": "eb2niw_diy_12345",
       "collection": "eb2niw_diy",
       "title": "E-commerce/IT EB-1A (Варшава)",
-      "summary": "Сфера - e-commerce/бизнес/IT",
+      "summary": "2022 пришел аппрув",
       "visa": "EB-1A",
       "field": "IT",
       "service_center": null,
@@ -696,7 +696,7 @@
       "consulate_city": "Warsaw",
       "timeline_days": 150,
       "context": "Сфера - e-commerce/бизнес/IT. Подписал договор 15.07.2022, подавал по премиум и 12.12.2022 пришел аппрув. Дальше был сбор документов и наконец 24.04.2023 NVC все принял. Интервью назначили на 18.10.2023 в Варшаве.",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "attorney-niw-dec23",
@@ -717,7 +717,7 @@
         "Рекомендательные письма"
       ],
       "context": "Получил аппрув 7го декабря по ЕВ-2 NIW. В итоге кейс был отправлен 25 мая 2023, одобрение пришло 07 декабря 2023, без RFE.",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "doctor-niw",
@@ -739,14 +739,14 @@
         "Публикации / цитирования"
       ],
       "context": "Я врач (диплом) + 12 scientific publications + на тот момент 45+ citations (но пока мы отправили уже 55+). PD 16 октября 2023, Approval 13 января 2024, без RFE.",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "it-systems-niw-warsaw",
       "source_id": "eb2niw_diy_23794",
       "collection": "eb2niw_diy",
       "title": "IT Systems (Варшава)",
-      "summary": "Собеседование в Варшаве",
+      "summary": "Подавались как Specialist in the development and implementation of IT systems",
       "visa": "EB-2 NIW",
       "field": "IT",
       "service_center": null,
@@ -758,8 +758,8 @@
       "evidence_bullets": [
         "Гранты / проекты"
       ],
-      "context": "Собеседование в Варшаве. EB2-NIW. Подавались как Specialist in the development and implementation of IT systems. Затем окно, где проверяют все документы по списку, которые отправлялись в NVC. Плюс чекают медосмотр, который появляется у них в системе.",
-      "hide_context": true
+      "context": "Собеседование в Варшаве. Затем окно, где проверяют все документы по списку, которые отправлялись в NVC. Плюс чекают медосмотр, который появляется у них в системе.",
+      "hide_context": false
     },
     {
       "id": "stem-self-niw",
@@ -781,7 +781,7 @@
         "Публикации / цитирования"
       ],
       "context": "Петиция: I-140, EB2 NIW Premium processing. Отрасль proposed endeavor: STEM. Образование/опыт: Специалист+магистр. Эвалюация: IEE, оба диплома - Master of Science. Дата начала работы над петицией: октябрь 2023. Дата отправки: июнь 2024. Priority date: 17 июня 2024. Дата RFE: 30 июля.",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "niw-warsaw-to-kazakhstan",
@@ -798,14 +798,14 @@
       "criteria": [],
       "consulate_city": "Almaty",
       "context": "В конце 2023 года я получил аппрув по EB-2NIW. И вот сейчас в апрельском бюллетене наконец-то подошла моя дата (25.05.2023), теперь в ожидании приглашения на собес в Казахстан (я делал перенос собеса из Варшавы).",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "product-manager-niw",
       "source_id": "eb2niw_diy_62193",
       "collection": "eb2niw_diy",
       "title": "Product Manager финтех",
-      "summary": "EB2-NIW Менеджер по продукту, финтех, digital identity",
+      "summary": "Ноябрь 2023 - отправляю петицию без премиума через DHL",
       "visa": "EB-2 NIW",
       "field": "IT",
       "service_center": null,
@@ -820,7 +820,7 @@
         "Рецензирование / judging"
       ],
       "context": "EB2-NIW Менеджер по продукту, финтех, digital identity. Полтора года я ждал когда напишу это сообщение. Выбрал eb2 niw и решил писать сам. Ноябрь 2023 - отправляю петицию без премиума через DHL.",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "qa-niw-boston",
@@ -846,14 +846,14 @@
         "Доход / зарплата"
       ],
       "context": "Пришло и мое время рассказать нашу историю успеха. Подписали контракт с адвокатом в мае 2023 года. Что прикладывали: эвалюация диплома (masters degree), 7 рекомендательных писем от коллег и экспертов в области, одно letter of intent, сертификаты, расчетники. Рассмотрение в Небраске.",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "antiml-niw",
       "source_id": "eb2niw_diy_67544",
       "collection": "eb2niw_diy",
       "title": "Anti-ML специалист EB-2 NIW",
-      "summary": "23 мая 2025 года - выслан RFE из Вермонта",
+      "summary": "20 августа - долгожданный АППРУВ",
       "visa": "EB-2 NIW",
       "field": "IT",
       "service_center": null,
@@ -868,14 +868,14 @@
         "Рекомендательные письма"
       ],
       "context": "Категория - EB2 NIW. Специальность - Anti-ML and Fraud. Сроки: 26 декабря 2023 года - петиция принята к рассмотрению Небраской. 23 мая 2025 года - выслан RFE из Вермонта. 20 августа - долгожданный АППРУВ!",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "o1-vermont-rfe-thrown",
       "source_id": "rfechat_1879",
       "collection": "rfe_chat",
       "title": "O-1 Vermont: RFE отменен после жалобы",
-      "summary": "[Адвокат] посчитала RFE как абсолютно абсурдный, с кучей процессуальных ошибок, и устроила разнос су...",
+      "summary": "На следующий день RFE выкинули и засчитали петицию",
       "visa": "O-1",
       "field": null,
       "service_center": null,
@@ -892,7 +892,7 @@
         "Жалоба на процессуальные ошибки в RFE"
       ],
       "notes": "Редкий случай отмены RFE после жалобы адвоката",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-2-denials-then-approval",
@@ -914,14 +914,14 @@
       "context": "У меня было 2 адвоката, 2 отказа, более 50 тысяч долларов слито... Апрув без RFE, премиум, Небраска.",
       "evidence_bullets": [],
       "notes": "Упорство после двух отказов",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-self-rfe-approval",
       "source_id": "rfechat_5221",
       "collection": "rfe_chat",
       "title": "EB-1A: самоподача с RFE",
-      "summary": "Весь путь занял наверное год и два месяца",
+      "summary": "Была первая подача, после чего получил RFE",
       "visa": "EB-1A",
       "field": null,
       "service_center": null,
@@ -956,7 +956,7 @@
         "authorship"
       ],
       "notes": "Также упоминается в talent_v_kazhdom (talentvk_64041)",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-it-turkey",
@@ -1001,7 +1001,7 @@
         "salary",
         "authorship"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-business-nsc",
@@ -1026,14 +1026,14 @@
         "Ключевая/критическая роль"
       ],
       "notes": "Повторная подача с меньшим количеством, но более сильными критериями",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-business-rfe-offer",
       "source_id": "rfechat_6830",
       "collection": "rfe_chat",
       "title": "EB-1A бизнес: RFE на оффер",
-      "summary": "На последний день рассмотрения получила RFE: «While the record does present that there are openings ...",
+      "summary": "На последний день рассмотрения получила RFE: «While the record does present that there are openings for positions, it does not indicate that the self-",
       "visa": "EB-1A",
       "field": "Бизнес",
       "service_center": null,
@@ -1046,12 +1046,12 @@
       "criteria": [],
       "consulate_city": null,
       "officer_id": "0272",
-      "context": "На последний день рассмотрения получила RFE: «While the record does present that there are openings for positions, it does not indicate that the self-petitioning beneficiary has prearranged commitments for working in this field». В ответ послала один оффер и пояснительную записку про компанию. Апрув на 11 день рассмотрения.",
+      "context": "На последний день рассмотрения получила RFE: «While the record does present that there are openings for positions, it does not indicate that the self-petitioning beneficiary has prearranged commitments for working in this field».",
       "evidence_bullets": [
         "Letter of intent / оффер"
       ],
       "notes": "Пример узкого RFE только на employment plan",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-killer-officer-approval",
@@ -1080,14 +1080,14 @@
         "Вклад"
       ],
       "notes": "Успешный ответ на разгромный RFE от сложного офицера",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-product-designer",
       "source_id": "rfechat_8212",
       "collection": "rfe_chat",
       "title": "EB-1A продуктовый дизайнер",
-      "summary": "Подал кейс EB-1A 6 марта, на 14-й рабочий день пришел RFE",
+      "summary": "В RFE отбивал высокую зарплату, лидирующую роль, награды и ассоциации (офицер запросил по ним тоже, хотя как критерий изначально не подавали)",
       "visa": "EB-1A",
       "field": "Дизайн",
       "service_center": null,
@@ -1114,7 +1114,7 @@
         "judging",
         "membership"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-rfe-noid-approval",
@@ -1148,7 +1148,7 @@
         "NOID ответ с визуализацией"
       ],
       "notes": "Использовала визуализацию ответов на NOID из чужого успешного кейса",
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-7698",
@@ -1171,14 +1171,14 @@
         "NVC/интервью",
         "RFE/NOID"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-47581",
       "source_id": "talentvk_47581",
       "collection": "talent_v_kazhdom",
       "title": "EB-1A Искусство",
-      "summary": "instagram web Офицер 0738 Про O1b история есть в отзывах на сайте (адвокат )",
+      "summary": "Теперь наконец-то история EB1 от Рината EB1 - переделанная O1 петиция",
       "visa": "EB-1A",
       "field": "Искусство",
       "prep": "attorney",
@@ -1192,14 +1192,14 @@
         "Ассоциации / членства",
         "RFE/NOID"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-97605",
       "source_id": "talentvk_97605",
       "collection": "talent_v_kazhdom",
       "title": "EB-1A Искусство",
-      "summary": "⠀ Моя история EB1 - ссылка на пост Моя история O1 - ⠀ Кто писал когда будет продолжение видео влогов",
+      "summary": "⠀ Моя история EB1 - ссылка на пост Моя история O1 - ⠀ Кто писал когда будет продолжение видео влогов, скоро начну загружать ⠀ ПРОДОЛЖЕНИЕ ИСТОРИИ НИЖЕ",
       "visa": "EB-1A",
       "field": "Искусство",
       "rfe": true,
@@ -1208,17 +1208,17 @@
       "evidence_bullets": [
         "RFE/NOID"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb2niw-tvk-37590",
       "source_id": "talentvk_37590",
       "collection": "talent_v_kazhdom",
       "title": "3,5 месяца до DQ, чуть не успели и начался ретрогресс п",
-      "summary": "3,5 месяца до DQ, чуть не успели и начался ретрогресс по бюллетеню, ожидание current для нас — 10 ме...",
+      "summary": "3,5 месяца до DQ, чуть не успели и начался ретрогресс по бюллетеню, ожидание current для нас — 10 месяцев",
       "visa": "EB-2 NIW",
       "criteria": [],
-      "context": "3,5 месяца до DQ, чуть не успели и начался ретрогресс по бюллетеню, ожидание current для нас — 10 месяцев. От месяца current до повторного DQ — 29 дней.",
+      "context": "От месяца current до повторного DQ — 29 дней.",
       "evidence_bullets": [
         "СМИ / материалы о заявителе",
         "NVC/интервью"
@@ -1229,8 +1229,8 @@
       "id": "o1b-tvk-62708",
       "source_id": "talentvk_62708",
       "collection": "talent_v_kazhdom",
-      "title": "O-1B Джакарта",
-      "summary": "Наконец то появилось время все расписать, делюсь информацией",
+      "title": "O-1B Искусство (Джакарта)",
+      "summary": "O-1B в сфере искусства, интервью в Джакарте.",
       "visa": "O-1B",
       "criteria": [],
       "context": "Наконец то появилось время все расписать, делюсь информацией.",
@@ -1241,7 +1241,7 @@
         "Ассоциации / членства",
         "NVC/интервью"
       ],
-      "hide_context": true,
+      "hide_context": false,
       "field": "Искусство"
     },
     {
@@ -1262,14 +1262,14 @@
         "Ассоциации / членства",
         "NVC/интервью"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-63764",
       "source_id": "talentvk_63764",
       "collection": "talent_v_kazhdom",
       "title": "Ну чтож, настало и мое время написать это сообщение...",
-      "summary": "Ну чтож, настало и мое время написать это сообщение",
+      "summary": "Сегодня получил свою заветную зеленую карточку",
       "visa": "EB-1A",
       "service_center": "TSC",
       "rfe": true,
@@ -1285,14 +1285,14 @@
         "NVC/интервью",
         "RFE/NOID"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-65486",
       "source_id": "talentvk_65486",
       "collection": "talent_v_kazhdom",
       "title": "История кейса",
-      "summary": "История кейса PR/fashion journalist Небраска 2023 14 февраля - заключили соглашение с юристом 15 мар...",
+      "summary": "История кейса PR/fashion journalist Небраска 2023 14 февраля - заключили соглашение с юристом 15 марта - подали кейс 29 марта - пришло подтверждение о",
       "visa": "EB-1A",
       "field": "Бизнес",
       "service_center": "NSC",
@@ -1305,14 +1305,14 @@
         "NVC/интервью",
         "RFE/NOID"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-72675",
       "source_id": "talentvk_72675",
       "collection": "talent_v_kazhdom",
       "title": "EB-1A Искусство",
-      "summary": "Одобрение (по словам автора).",
+      "summary": "Кейс в сфере Искусство. Одобрен.",
       "visa": "EB-1A",
       "field": "Искусство",
       "criteria": [],
@@ -1328,7 +1328,7 @@
       "source_id": "talentvk_88077",
       "collection": "talent_v_kazhdom",
       "title": "EB-2 NIW Наука",
-      "summary": "Я тут только что заглянула в lawfully и обнаружила, что в пятницу мне одобрили I-140 А то я уже собр...",
+      "summary": "Я тут только что заглянула в lawfully и обнаружила, что в пятницу мне одобрили I-140 А то я уже собралась на Eb-1 подаваться, ждала еще конференции и ",
       "visa": "EB-2 NIW",
       "field": "Наука",
       "criteria": [],
@@ -1342,7 +1342,7 @@
         "Ассоциации / членства",
         "NVC/интервью"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-91134",
@@ -1386,32 +1386,32 @@
         "Награды",
         "RFE/NOID"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "o1b-tvk-97319",
       "source_id": "talentvk_97319",
       "collection": "talent_v_kazhdom",
-      "title": "O-1B Мода",
-      "summary": ", хочу поделиться своим затянувшимся кейсом",
+      "title": "O-1B Fashion Model (RFE, TSC)",
+      "summary": "Петиция O-1B fashion model, подана в апреле 2024, сервисный центр Техас, получен RFE.",
       "visa": "O-1B",
       "field": "Мода",
       "service_center": "TSC",
       "rfe": true,
       "criteria": [],
-      "context": ", хочу поделиться своим затянувшимся кейсом. Подавал петицию на О1B (fashion model) в середине апреля 2024 года.",
+      "context": "Подавал петицию на O1B (fashion model) в середине апреля 2024 года. Затянувшийся кейс с RFE.",
       "evidence_bullets": [
         "Публикации / цитирования",
         "RFE/NOID"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb2niw-tvk-126979",
       "source_id": "talentvk_126979",
       "collection": "talent_v_kazhdom",
       "title": "Прекрасная история супер талантливого участника чата, к",
-      "summary": "Прекрасная история супер талантливого участника чата, который с нами уже давно тут и доказал своей с",
+      "summary": "Как и все он прошел год собирая и оформляя свою петицию",
       "visa": "EB-2 NIW",
       "rfe": true,
       "criteria": [],
@@ -1426,7 +1426,7 @@
         "Награды",
         "Ассоциации / членства"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-130441",
@@ -1447,18 +1447,18 @@
         "Ассоциации / членства",
         "NVC/интервью"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-143625",
       "source_id": "talentvk_143625",
       "collection": "talent_v_kazhdom",
       "title": "Уважаемые коллеги, друзья и просто замечательные люди э",
-      "summary": "Уважаемые коллеги, друзья и просто замечательные люди этого чата наступило время поделиться своей ра...",
+      "summary": "Уважаемые коллеги, друзья и просто замечательные люди этого чата наступило время поделиться своей радостью с вами и пожелать всем успехов и удачи в эт",
       "visa": "EB-1A",
       "rfe": true,
       "criteria": [],
-      "context": "Уважаемые коллеги, друзья и просто замечательные люди этого чата наступило время поделиться своей радостью с вами и пожелать всем успехов и удачи в этом не простом пути:) вчера мной был получен апрув через 4 месяца после отказа (делаю для истории ответ на то самое мое первое сообщение в этом чате) . Итак коротко по времени: декабрь отказ, но…",
+      "context": "Уважаемые коллеги, друзья и просто замечательные люди этого чата наступило время поделиться своей радостью с вами и пожелать всем успехов и удачи в этом не простом пути:) вчера мной был получен апрув через 4 месяца после отказа (делаю для истории ответ на то самое мое первое сообщение в этом чате).",
       "evidence_bullets": [
         "Рекомендательные письма",
         "СМИ / материалы о заявителе",
@@ -1466,14 +1466,14 @@
         "Награды",
         "RFE/NOID"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb2niw-tvk-154717",
       "source_id": "talentvk_154717",
       "collection": "talent_v_kazhdom",
       "title": "EB-2 NIW IT",
-      "summary": "-1A Поделюсь и я первыми шагами В августе 2024-го года пришло понимание что надо двигаться в сторону",
+      "summary": "Про EB визы вообще ничего не знал - наткнулся на видео в ютубе про EB2-NIW - покрутился почитал взял консультацию у [адвоката] - он уговорил на EB-1A ",
       "visa": "EB-2 NIW",
       "field": "IT",
       "rfe": true,
@@ -1483,7 +1483,7 @@
         "NVC/интервью",
         "RFE/NOID"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-156761",
@@ -1527,14 +1527,14 @@
         "Награды",
         "NVC/интервью"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-157773",
       "source_id": "talentvk_157773",
       "collection": "talent_v_kazhdom",
       "title": "EB-1A Наука",
-      "summary": ", хочу поделиться новостью об апруве",
+      "summary": "Кейс подавала по науке, ученый в области химии",
       "visa": "EB-1A",
       "field": "Наука",
       "rfe": true,
@@ -1549,7 +1549,7 @@
         "Ассоциации / членства",
         "RFE/NOID"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-166096",
@@ -1567,21 +1567,21 @@
         "Награды",
         "NVC/интервью"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-171300",
       "source_id": "talentvk_171300",
       "collection": "talent_v_kazhdom",
       "title": "EB-1A Спорт",
-      "summary": "Категория - EB1A Специальность - Sport (Dancing, ) С адвокатом, пока называть не буду, в чате упомин",
+      "summary": "Категория - EB1A Специальность - Sport (Dancing, ) С адвокатом, пока называть не буду, в чате упоминаний нет Аппликант - супруга, я только помогал, фи",
       "visa": "EB-1A",
       "field": "Спорт",
       "service_center": "NSC",
       "prep": "attorney",
       "rfe": true,
       "criteria": [],
-      "context": "Категория - EB1A Специальность - Sport (Dancing, ) С адвокатом, пока называть не буду, в чате упоминаний нет Аппликант - супруга, я только помогал, финансово и не свихнуться . Несколько лет назад всё началось с шутки \"а что я не талант разве\".",
+      "context": "Категория - EB1A Специальность - Sport (Dancing, ) С адвокатом, пока называть не буду, в чате упоминаний нет Аппликант - супруга, я только помогал, финансово и не свихнуться. Несколько лет назад всё началось с шутки \"а что я не талант разве\".",
       "evidence_bullets": [
         "Рекомендательные письма",
         "СМИ / материалы о заявителе",
@@ -1591,25 +1591,25 @@
         "NVC/интервью",
         "RFE/NOID"
       ],
-      "hide_context": true
+      "hide_context": false
     },
     {
       "id": "eb1a-tvk-179780",
       "source_id": "talentvk_179780",
       "collection": "talent_v_kazhdom",
       "title": "EB-1A самоподача с мужем",
-      "summary": "Нам пришло одобрение для EB1-A, очень рады с мужем :)) Мы все делали в этот раз сами, много полезной...",
+      "summary": "Нам пришло одобрение для EB1-A, очень рады с мужем :)) Мы все делали в этот раз сами, много полезной информации почерпнули в этом чате и базе знаний",
       "visa": "EB-1A",
       "criteria": [],
       "context": "Нам пришло одобрение для EB1-A, очень рады с мужем :)) Мы все делали в этот раз сами, много полезной информации почерпнули в этом чате и базе знаний.",
-      "hide_context": true,
+      "hide_context": false,
       "prep": "self"
     },
     {
       "id": "vip_18635",
       "collection": "vip_talent",
       "visa": "O-1B",
-      "title": "O-1B: Актер (premium)",
+      "title": "O-1B: Актер",
       "context": "Ребят, индус, мой румейтер, по актерству получил апрув, без премиума. Ждал месяц и две недели. Отдал около $9. Агентский вариант. Через неделю, полторы поедет ставить визу в Индию. Подавался из США.",
       "field": null,
       "rfe": false,
@@ -1617,7 +1617,9 @@
       "premium": true,
       "prep": "attorney",
       "service_center": null,
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "Апрув O-1B по актерству за 1.5 месяца без премиума. Агентский вариант, интервью в Индии.",
+      "hide_context": false
     },
     {
       "id": "vip_47611",
@@ -1631,7 +1633,9 @@
       "premium": false,
       "prep": null,
       "service_center": null,
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "Забегая вперёд ошибся суммой, взял старые",
+      "hide_context": false
     },
     {
       "id": "vip_24909",
@@ -1645,7 +1649,9 @@
       "premium": false,
       "prep": "mixed",
       "service_center": "NSC",
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "Бизнес, направление - project manager в сфере ИТ для банков 19 декабря кейс был получен офисом USCIS в Небраске, 28ого - case approved",
+      "hide_context": false
     },
     {
       "id": "vip_37577",
@@ -1659,7 +1665,9 @@
       "premium": true,
       "prep": "mixed",
       "service_center": null,
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "Приятно присоединиться к радостной череде))) Получила аппрув по О1-В в сфере фотографии",
+      "hide_context": false
     },
     {
       "id": "vip_63971",
@@ -1673,7 +1681,9 @@
       "premium": true,
       "prep": "mixed",
       "service_center": "NSC",
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "Подавала из США, смена статуса внутри страны с О1",
+      "hide_context": false
     },
     {
       "id": "vip_42161",
@@ -1687,21 +1697,25 @@
       "premium": false,
       "prep": null,
       "service_center": null,
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "в последний день рассмотрения пришло одобрения",
+      "hide_context": false
     },
     {
       "id": "vip_48310",
       "collection": "vip_talent",
       "visa": "O-1A",
-      "title": "O-1A: Программист",
-      "context": "(после -а) О себе: Возраст: 25-26 лет Высшее образование: отсутствует Профессия: программист с несколькими годами опыта в бигтехе (Авито - 3+ года) без гос сектора Последний визит в РФ: март 2022 Университет: Поступил на Бакалавра со специальностью \"Математика и компьютерные науки\" в университет в Чикаго с 20% стипендией, остальное оплачивает семья. Этапы получения визы: 1. Июль-август 2023 — Перв",
+      "title": "O-1A: IT-программист (Belgrade)",
+      "context": "О себе: Возраст: 25-26 лет. Высшее образование: отсутствует. Профессия: программист с несколькими годами опыта в бигтехе (Авито - 3+ года). Последний визит в РФ: март 2022. Поступил на Бакалавра в университет в Чикаго с 20% стипендией. Этапы получения визы: Июль-август 2023 — первичная консультация с иммиграционным адвокатом.",
       "field": "IT",
       "rfe": false,
       "noid": false,
       "premium": false,
       "prep": "mixed",
       "service_center": null,
-      "consulate_city": "Belgrade"
+      "consulate_city": "Belgrade",
+      "summary": "Программист без высшего образования с опытом в бигтехе (Авито), интервью в Белграде.",
+      "hide_context": false
     },
     {
       "id": "vip_48761",
@@ -1715,7 +1729,9 @@
       "premium": true,
       "prep": "self",
       "service_center": "NSC",
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "Хотел поделиться своей радостью)) На днях получил одобрение петиции по EB1A без RFE Подавал в категории Бизнес по специальности технологии управления ",
+      "hide_context": false
     },
     {
       "id": "vip_50353",
@@ -1729,7 +1745,9 @@
       "premium": false,
       "prep": null,
       "service_center": null,
-      "consulate_city": "Warsaw"
+      "consulate_city": "Warsaw",
+      "summary": "Итак, собеседование 28",
+      "hide_context": false
     },
     {
       "id": "vip_50718",
@@ -1743,7 +1761,9 @@
       "premium": false,
       "prep": null,
       "service_center": null,
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "Продолжим историю approved",
+      "hide_context": false
     },
     {
       "id": "vip_50741",
@@ -1757,7 +1777,9 @@
       "premium": false,
       "prep": "mixed",
       "service_center": "TSC",
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "Критерии: - Критическая роль 2 - Зарплата 1 - Научные статьи 4 - СМИ 2 - Рекомендательные письма 10 - Job offer letter 1 Я думаю сильные рекомендатель",
+      "hide_context": false
     },
     {
       "id": "vip_52954",
@@ -1771,21 +1793,25 @@
       "premium": true,
       "prep": "mixed",
       "service_center": "NSC",
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": ") В доп документы, добавила еще несколько судейств(они были по смежной специализации поэтому в сам критерий судейства они не добавлялись), и приглашен",
+      "hide_context": false
     },
     {
       "id": "vip_53375",
       "collection": "vip_talent",
       "visa": "EB-1A",
       "title": "EB-1A (RFE, NSC)",
-      "context": "Всем привет! 🙌 Пыль немного улеглась, пишу краткое содержание истории подачи и одобрения с третьей попытки. 📜 Главный талант в семье — моя жена, арт-директор популярного детского издательства. 🎨📚 Переезд планировали давно, 🌍✈ приступить решили в апреле 2021 года и внесли предоплату $3000 Полякову из Америки в деталях. 💵 Но химии не случилось, и продолжать работу с ним не стали. ❌ Далее я покупаю б",
+      "context": "📜 Главный талант в семье — моя жена, арт-директор популярного детского издательства. 🎨📚 Переезд планировали давно, 🌍✈ приступить решили в апреле 2021 года и внесли предоплату $3000 Полякову из Америки в деталях.",
       "field": null,
       "rfe": true,
       "noid": false,
       "premium": false,
       "prep": "mixed",
       "service_center": "NSC",
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "🙌 Пыль немного улеглась, пишу краткое содержание истории подачи и одобрения с третьей попытки",
+      "hide_context": false
     },
     {
       "id": "vip_54127",
@@ -1799,7 +1825,9 @@
       "premium": true,
       "prep": "self",
       "service_center": null,
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "2025 - аппрув i140 без RFE Писал сам, без адваката",
+      "hide_context": false
     },
     {
       "id": "vip_56808",
@@ -1813,21 +1841,25 @@
       "premium": true,
       "prep": "self",
       "service_center": "NSC",
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "Долгий путь к Аппруву EB1a на 14 рабочий день рассмотрения кейса",
+      "hide_context": false
     },
     {
       "id": "vip_57509",
       "collection": "vip_talent",
       "visa": "EB-1A",
       "title": "EB-1A: Педагог (premium, RFE)",
-      "context": "Approve ЕВ-1А после РФЕ Наконец-то собралась и написала текст)) Так как мой апрув пришел в прямом эфире на нашем созвоне)), то многие уже знают подробности моей петиции и ответа на рфе, но может кому еще будет полезно, поэтому постараюсь подробно расписать. Специальность-дефектолог/педагог специального образования (педстаж более 20 лет) Подавала по премиум 13 декабря в Небраску, попала в завал дек",
+      "context": "Approve ЕВ-1А после РФЕ Наконец-то собралась и написала текст)) Так как мой апрув пришел в прямом эфире на нашем созвоне)), то многие уже знают подробности моей петиции и ответа на рфе, но может кому еще будет полезно, поэтому постараюсь подробно расписать.",
       "field": null,
       "rfe": true,
       "noid": false,
       "premium": true,
       "prep": "mixed",
       "service_center": "NSC",
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "Approve ЕВ-1А после РФЕ Наконец-то собралась и написала текст)) Так как мой апрув пришел в прямом эфире на нашем созвоне)), то многие уже знают подроб",
+      "hide_context": false
     },
     {
       "id": "vip_59236",
@@ -1841,35 +1873,41 @@
       "premium": true,
       "prep": "mixed",
       "service_center": "NSC",
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "Минимально необходимый зато выполнилось ) В целом считаю что прошел “на тоненького”, скорее всего благодаря тому что смог сделать критерий Вклад",
+      "hide_context": false
     },
     {
       "id": "vip_60536",
       "collection": "vip_talent",
       "visa": "EB-1A",
       "title": "EB-1A: Дизайнер (premium, RFE)",
-      "context": "меня зовут Саша, я продуктовый дизайнер (опыт более 10 лет - фриланс, Альфа-Банк, Т-Банк). Подал кейс EB-1A, по премиум, 6 марта 2025, через на 14 рабочий день пришел RFE. Подавал высокая ЗП, награды, СМИ, жюри, лидирующая роль. Зачли только жюри, офицер Небраска 0242. В RFE отбивал высокую зп, лидирующая роль, награды и Ассоциации (офицер запросил по ним тоже, хотя как критерий изначально это не ",
+      "context": "меня зовут Саша, я продуктовый дизайнер (опыт более 10 лет - фриланс, Альфа-Банк, Т-Банк). Подал кейс EB-1A, по премиум, 6 марта 2025, через на 14 рабочий день пришел RFE. Подавал высокая ЗП, награды, СМИ, жюри, лидирующая роль. Зачли только жюри, офицер Небраска 0242. В RFE отбивал высокую зп, лидирующая роль, награды и Ассоциации (офицер запросил по ним тоже, хотя как критерий изначально это не",
       "field": "Искусство",
       "rfe": true,
       "noid": false,
       "premium": true,
       "prep": null,
       "service_center": "NSC",
-      "consulate_city": null
+      "consulate_city": null,
+      "summary": "Подал кейс EB-1A, по премиум, 6 марта 2025, через на 14 рабочий день пришел RFE",
+      "hide_context": false
     },
     {
       "id": "vip_62024",
       "collection": "vip_talent",
       "visa": "EB-2 NIW",
       "title": "EB-2 NIW (premium, RFE)",
-      "context": "Ну что, друзья, так как новости об этом появились в публичном доступе и были те, кто узнал мой профиль, рада вам сообщить, что у меня долгожданный АППРУВ! Официального notice ещё нет, но оооочень жду его,чтобы выдохнуть окончательно. Категория - EB2 NIW Специальность - Anti- and Адвокат - Подавала петицию из Латвии, буду проходить через консульский процесс, видимо, в Стокгольме. Сроки: 26 декабря ",
+      "context": "Ну что, друзья, так как новости об этом появились в публичном доступе и были те, кто узнал мой профиль, рада вам сообщить, что у меня долгожданный АППРУВ. Официального notice ещё нет, но оооочень жду его,чтобы выдохнуть окончательно.",
       "field": null,
       "rfe": true,
       "noid": true,
       "premium": true,
       "prep": "mixed",
       "service_center": "NSC",
-      "consulate_city": "Stockholm"
+      "consulate_city": "Stockholm",
+      "summary": "Ну что, друзья, так как новости об этом появились в публичном доступе и были те, кто узнал мой профиль, рада вам сообщить, что у меня долгожданный АПП",
+      "hide_context": false
     }
   ]
 }

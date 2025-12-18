@@ -6,7 +6,10 @@ Generate MDX pages for success stories with quality gate.
 import json
 import re
 from pathlib import Path
-from clean_cases import clean_text, is_title_garbage, generate_title, extract_summary, is_context_duplicate
+from clean_cases import (
+    clean_text_light, clean_text_for_title, is_title_garbage,
+    generate_title, extract_summary, is_context_duplicate, expand_context
+)
 
 BASE_DIR = Path('/Users/aeb/mintlify-docs')
 DATA_PATH = BASE_DIR / 'data' / 'cases.json'
@@ -41,19 +44,23 @@ def make_accordion(case: dict) -> str:
     visa = case.get('visa', 'EB-1A')
     field = case.get('field', '')
 
-    # Clean and generate title
-    title = clean_text(case.get('title', ''))
-    if is_title_garbage(title):
+    # Get or generate title
+    title = case.get('title', '')
+    if not title or is_title_garbage(title):
         title = generate_title(case)
-    title = title[:55]
+    title = clean_text_for_title(title)[:55]
 
     icon = get_icon(field, visa)
 
-    # Clean context
-    context = clean_text(case.get('context', ''))
+    # Get context (use raw from case, clean lightly)
+    raw_context = case.get('context', '')
+    context = clean_text_light(raw_context)
 
-    # Generate summary
-    summary = extract_summary(context, case)
+    # Get or generate summary
+    summary = case.get('summary', '')
+    if not summary:
+        summary = extract_summary(raw_context, case)
+    summary = clean_text_for_title(summary)[:200]
 
     # Build tags
     tags = [f'<code>{visa}</code>']
@@ -61,19 +68,33 @@ def make_accordion(case: dict) -> str:
         tags.append(f'<code>{field}</code>')
     if case.get('rfe'):
         tags.append('<code>RFE</code>')
+    if case.get('noid'):
+        tags.append('<code>NOID</code>')
     if case.get('premium'):
         tags.append('<code>premium</code>')
     if case.get('prep') == 'self':
         tags.append('<code>самоподача</code>')
     if case.get('service_center'):
         tags.append(f'<code>{case["service_center"]}</code>')
+    if case.get('consulate_city'):
+        tags.append(f'<code>{case["consulate_city"]}</code>')
 
-    # Check if context should be shown
-    show_context = (
-        context and
-        len(context) >= 30 and
-        not is_context_duplicate(summary, context)
-    )
+    # Determine if we should show context section
+    # Show context if:
+    # 1. Context is long enough (> 80 chars)
+    # 2. Context is not just a repeat of summary
+    # 3. Context has meaningful additional info
+    show_context = True
+
+    if not context or len(context) < 50:
+        show_context = False
+    elif is_context_duplicate(summary, context) and len(context) < len(summary) * 1.5:
+        # Try to expand context
+        expanded = expand_context(raw_context, summary)
+        if expanded and len(expanded) > len(summary) * 1.3:
+            context = expanded
+        else:
+            show_context = False
 
     # Build accordion
     accordion = f'''  <Accordion title="{title}" icon="{icon}">
@@ -85,9 +106,17 @@ def make_accordion(case: dict) -> str:
 '''
 
     if show_context:
+        # Truncate context to reasonable length
+        display_context = context[:400]
+        if len(context) > 400:
+            # Try to cut at sentence boundary
+            last_period = display_context.rfind('.')
+            if last_period > 200:
+                display_context = display_context[:last_period + 1]
+
         accordion += f'''
     ### Контекст
-    {context[:350]}
+    {display_context}
 '''
 
     accordion += '\n  </Accordion>'
@@ -159,7 +188,7 @@ icon: "grid-2"
 
 
 def generate_filtered_page(cases: list, filter_fn, title: str, sidebar: str,
-                           description: str, icon: str, heading: str) -> str:
+                           description: str, icon: str, heading: str, note: str = None) -> str:
     """Generate a filtered page (RFE, premium, etc.)."""
     filtered = [c for c in cases if filter_fn(c)]
     count = len(filtered)
@@ -170,7 +199,16 @@ sidebarTitle: "{sidebar} ({count})"
 description: "{description}"
 icon: "{icon}"
 ---
+'''
 
+    if note:
+        output += f'''
+<Note>
+{note}
+</Note>
+'''
+
+    output += f'''
 ## {heading} ({count})
 
 <AccordionGroup>
@@ -183,7 +221,7 @@ icon: "{icon}"
     return output
 
 
-def generate_visa_page(cases: list, visa_filter: str, title: str, icon: str) -> str:
+def generate_visa_page(cases: list, visa_filter: str, title: str, icon: str, note: str = None) -> str:
     """Generate a by-visa page."""
     if visa_filter.startswith('O-1'):
         filtered = [c for c in cases if c.get('visa', '').startswith('O-1')]
@@ -198,7 +236,16 @@ sidebarTitle: "{visa_filter} ({count})"
 description: "Реальные кейсы {visa_filter}."
 icon: "{icon}"
 ---
+'''
 
+    if note:
+        output += f'''
+<Note>
+{note}
+</Note>
+'''
+
+    output += f'''
 ## Кейсы {visa_filter} ({count})
 
 <AccordionGroup>
@@ -232,7 +279,8 @@ def main():
         "Одобрение через RFE",
         "Истории успеха, где USCIS запросил дополнительные доказательства.",
         "file-circle-question",
-        "Кейсы с RFE"
+        "Кейсы с RFE",
+        note="**RFE** - запрос дополнительных доказательств. Не отказ, а возможность усилить кейс."
     )
     (STORIES_DIR / 'with-rfe.mdx').write_text(content)
     print("  - with-rfe.mdx")
@@ -245,7 +293,8 @@ def main():
         "Premium",
         "Истории успеха с ускоренным рассмотрением.",
         "bolt",
-        "Кейсы с Premium"
+        "Кейсы с Premium",
+        note="**Premium Processing** - ускоренное рассмотрение за $2,805 (I-140). USCIS дает ответ в течение 15 рабочих дней."
     )
     (STORIES_DIR / 'premium.mdx').write_text(content)
     print("  - premium.mdx")
@@ -258,7 +307,8 @@ def main():
         "Самоподача",
         "Кейсы самостоятельной подготовки петиции.",
         "user",
-        "Кейсы самоподачи"
+        "Кейсы самоподачи",
+        note="**Самоподача** - подготовка петиции без адвоката. Экономия $5,000-15,000."
     )
     (STORIES_DIR / 'self-prepared.mdx').write_text(content)
     print("  - self-prepared.mdx")
@@ -275,7 +325,11 @@ def main():
     (visa_dir / 'eb-2-niw.mdx').write_text(content)
     print("  - by-visa/eb-2-niw.mdx")
 
-    content = generate_visa_page(cases, 'O-1', "Истории успеха: O-1", "bolt")
+    # O-1 page with helpful note
+    o1_note = """**O-1** имеет две подкатегории:
+- **O-1A** — для бизнеса, науки, образования, спорта
+- **O-1B** — для искусства, кино, ТВ"""
+    content = generate_visa_page(cases, 'O-1', "Истории успеха: O-1", "bolt", note=o1_note)
     (visa_dir / 'o-1.mdx').write_text(content)
     print("  - by-visa/o-1.mdx")
 
