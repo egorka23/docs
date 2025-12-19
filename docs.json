@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Визы талантов O-1 / EB-1",
+  "theme": "maple",
+  "name": "O1EB1",
   "colors": {
-    "primary": "#0B1F3A",
-    "light": "#1a3a5c",
-    "dark": "#061225"
+    "primary": "#7c5cff",
+    "light": "#9d85ff",
+    "dark": "#5a3dd6"
   },
   "favicon": "/logo/usa-flag-small.png",
   "logo": {
