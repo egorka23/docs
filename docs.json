@@ -11,7 +11,7 @@
   "logo": {
     "light": "/logo/logo-with-text.svg",
     "dark": "/logo/logo-with-text-dark.svg",
-    "href": "/"
+    "href": "/docs/"
   },
   "navigation": {
     "groups": [
