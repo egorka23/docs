@@ -15,6 +15,12 @@
   "navigation": {
     "groups": [
       {
+        "group": "ОБЗОР",
+        "pages": [
+          "index"
+        ]
+      },
+      {
         "group": "АДМИНИСТРАТИВНАЯ ПРОВЕРКА",
         "pages": [
           "administrative-check/faq",
@@ -91,10 +97,5 @@
       "measurementId": "G-3GZ9ZEMRDM"
     }
   },
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/administrative-check/faq"
-    }
-  ]
+  "redirects": []
 }
