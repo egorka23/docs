@@ -10,8 +10,7 @@
   "favicon": "/logo/usa-flag-small.png",
   "logo": {
     "light": "/logo/logo-with-text.svg",
-    "dark": "/logo/logo-with-text-dark.svg",
-    "href": "/docs/"
+    "dark": "/logo/logo-with-text-dark.svg"
   },
   "navigation": {
     "groups": [
@@ -98,10 +97,5 @@
       "measurementId": "G-3GZ9ZEMRDM"
     }
   },
-  "redirects": [
-    {
-      "source": "/index",
-      "destination": "/"
-    }
-  ]
+  "redirects": []
 }
