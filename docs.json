@@ -18,10 +18,7 @@
       {
         "group": "ОБЗОР",
         "pages": [
-          {
-            "page": "index",
-            "href": "/docs/"
-          }
+          "index"
         ]
       },
       {
@@ -101,5 +98,10 @@
       "measurementId": "G-3GZ9ZEMRDM"
     }
   },
-  "redirects": []
+  "redirects": [
+    {
+      "source": "/index",
+      "destination": "/"
+    }
+  ]
 }
