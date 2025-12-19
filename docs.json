@@ -10,7 +10,8 @@
   "favicon": "/logo/usa-flag-small.png",
   "logo": {
     "light": "/logo/logo-with-text.svg",
-    "dark": "/logo/logo-with-text-dark.svg"
+    "dark": "/logo/logo-with-text-dark.svg",
+    "href": "/"
   },
   "navigation": {
     "groups": [
