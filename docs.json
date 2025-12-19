@@ -55,7 +55,9 @@
       {
         "group": "СООБЩЕСТВО",
         "pages": [
-          "community"
+          "community",
+          "usa140",
+          "help"
         ]
       }
     ]
@@ -92,6 +94,9 @@
   },
   "seo": {
     "indexHiddenPages": false
+  },
+  "layout": {
+    "contentWidth": "wide"
   },
   "analytics": {
     "ga4": {
