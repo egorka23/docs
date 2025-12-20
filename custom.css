@@ -1,0 +1,11 @@
+/* Remove underlines from links in content */
+.prose a,
+article a {
+  text-decoration: none !important;
+}
+
+/* Keep hover effect subtle */
+.prose a:hover,
+article a:hover {
+  opacity: 0.8;
+}
