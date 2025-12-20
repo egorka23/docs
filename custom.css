@@ -1,11 +1,12 @@
-/* Remove underlines from links in content */
-.prose a,
-article a {
+/* FAQ links - underline only on hover */
+.prose li a,
+article li a {
   text-decoration: none !important;
+  border-bottom: none !important;
 }
 
-/* Keep hover effect subtle */
-.prose a:hover,
-article a:hover {
-  opacity: 0.8;
+.prose li a:hover,
+article li a:hover {
+  border-bottom: 1px solid #7c5cff !important;
+  padding-bottom: 1px !important;
 }
