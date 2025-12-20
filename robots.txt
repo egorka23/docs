@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /cdn-cgi/
+Sitemap: https://www.o1eb1.com/docs/sitemap.xml
