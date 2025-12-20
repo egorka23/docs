@@ -1,12 +1,11 @@
-/* Remove all purple underlines */
+/* Remove all underlines by default */
 a {
   text-decoration: none !important;
   border-bottom: none !important;
+  cursor: pointer !important;
 }
 
-/* FAQ links - underline only on hover */
-.prose li a:hover,
-article li a:hover {
-  border-bottom: 1px solid #7c5cff !important;
-  padding-bottom: 1px !important;
+/* Underline on hover for all links */
+a:hover {
+  text-decoration: underline !important;
 }
