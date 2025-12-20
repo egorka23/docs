@@ -2,7 +2,6 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
   "name": "O1EB1",
-  "baseUrl": "https://www.o1eb1.com/docs",
   "css": "/custom.css",
   "colors": {
     "primary": "#7c5cff",
