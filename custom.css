@@ -50,3 +50,17 @@ a:hover {
 .pagination-next:hover * {
   text-decoration: none !important;
 }
+
+/* Purple links inside accordions */
+[data-state] a,
+.accordion a,
+details a {
+  color: #8B5CF6 !important;
+  text-decoration: underline !important;
+}
+
+[data-state] a:hover,
+.accordion a:hover,
+details a:hover {
+  color: #7C3AED !important;
+}
