@@ -23,3 +23,30 @@ a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* Navigation cards Previous/Next - Solid purple CTA style */
+.pagination-prev,
+.pagination-next {
+  background: #7c5cff !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(124, 92, 255, 0.3) !important;
+  transition: all 0.2s ease !important;
+}
+
+.pagination-prev:hover,
+.pagination-next:hover {
+  background: #6b4ce6 !important;
+  box-shadow: 0 6px 20px rgba(124, 92, 255, 0.4) !important;
+  transform: translateY(-2px) !important;
+  text-decoration: none !important;
+}
+
+.pagination-prev *,
+.pagination-next * {
+  color: white !important;
+}
+
+.pagination-prev:hover *,
+.pagination-next:hover * {
+  text-decoration: none !important;
+}
