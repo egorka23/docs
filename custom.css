@@ -149,6 +149,7 @@ a:hover {
   z-index: 99999 !important;
   border-radius: 0 !important;
   background: white !important;
+  padding-top: 70px !important;
 }
 
 /* Back button inside fullscreen container */
