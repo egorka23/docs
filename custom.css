@@ -104,38 +104,47 @@ a:hover {
   max-height: 75vh !important;
   border-radius: 12px !important;
   transition: all 0.3s ease !important;
+  margin-left: -24px !important;
+  margin-right: -24px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  width: calc(100% + 48px) !important;
 }
 
-/* Fullscreen toggle button */
+/* Fullscreen toggle button - floating bottom right */
 .fullscreen-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 16px;
+  padding: 12px 20px;
   background: #7c5cff;
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
-  margin-bottom: 12px;
+  box-shadow: 0 4px 12px rgba(124, 92, 255, 0.4);
   transition: all 0.2s ease;
 }
 
 .fullscreen-btn:hover {
   background: #6b4ce6;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(124, 92, 255, 0.5);
 }
 
 .fullscreen-btn.back-btn {
   background: #7c5cff;
-  box-shadow: 0 4px 12px rgba(124, 92, 255, 0.3);
+  z-index: 10001;
 }
 
 .fullscreen-btn.back-btn:hover {
   background: #6b4ce6;
-  box-shadow: 0 6px 16px rgba(124, 92, 255, 0.4);
 }
 
 /* Native fullscreen mode */
@@ -251,4 +260,12 @@ details a {
 .accordion a:hover,
 details a:hover {
   color: #7C3AED !important;
+}
+
+/* Steps component - filled purple circles */
+[class*="step"] [class*="number"],
+[class*="Step"] [class*="number"] {
+  background: #7c5cff !important;
+  color: white !important;
+  border: none !important;
 }
