@@ -41,20 +41,17 @@ mode: "wide"
 <button className="fullscreen-btn" id="fullscreenBtn" onClick={() => {
   const container = document.querySelector('.rfe-table-container');
   const btn = document.getElementById('fullscreenBtn');
-  container.classList.toggle('fullscreen');
-  document.body.classList.toggle('fullscreen-active');
-  if (container.classList.contains('fullscreen')) {
-    container.insertBefore(btn, container.firstChild);
-    btn.textContent = '← Назад';
-    btn.classList.add('back-btn');
+  if (!document.fullscreenElement) {
+    container.requestFullscreen().then(() => {
+      btn.textContent = '← Выйти (Esc)';
+      btn.classList.add('back-btn');
+    }).catch(err => console.log(err));
   } else {
-    container.parentNode.insertBefore(btn, container);
-    btn.textContent = '⛶ На весь экран';
-    btn.classList.remove('back-btn');
+    document.exitFullscreen();
   }
 }}>⛶ На весь экран</button>
 
-<div className="rfe-table-container" style={{overflow: "visible", borderRadius: "12px", boxShadow: "0 4px 6px -1px rgba(0,0,0,0.1)"}}>
+<div className="rfe-table-container" style={{overflow: "auto", borderRadius: "12px", boxShadow: "0 4px 6px -1px rgba(0,0,0,0.1)", maxHeight: "75vh"}}>
   <table className="rfe-table" style={{borderCollapse: "separate", borderSpacing: "0", width: "100%", fontSize: "13px", minWidth: "1000px"}}>
     <thead>
       <tr>
