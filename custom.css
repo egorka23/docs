@@ -149,7 +149,15 @@ a:hover {
   z-index: 99999 !important;
   border-radius: 0 !important;
   background: white !important;
-  padding-top: 70px !important;
+  padding-top: 16px !important;
+}
+
+/* Hide navbar in fullscreen */
+body.fullscreen-active header,
+body.fullscreen-active nav,
+body.fullscreen-active [class*="navbar"],
+body.fullscreen-active [class*="Navbar"] {
+  display: none !important;
 }
 
 /* Back button inside fullscreen container */

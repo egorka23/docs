@@ -42,6 +42,7 @@ mode: "wide"
   const container = document.querySelector('.rfe-table-container');
   const btn = document.getElementById('fullscreenBtn');
   container.classList.toggle('fullscreen');
+  document.body.classList.toggle('fullscreen-active');
   if (container.classList.contains('fullscreen')) {
     container.insertBefore(btn, container.firstChild);
     btn.textContent = '← Назад';

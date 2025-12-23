@@ -6,7 +6,21 @@ icon: "database"
 mode: "wide"
 ---
 
-**244 кейсов** EB-1A с разбивкой по критериям, офицерам и центрам. Фильтруйте по профессии или центру.
+<div style={{marginBottom: "32px"}}>
+  <div style={{padding: "20px 24px", backgroundColor: "#f8fafc", borderRadius: "12px", border: "1px solid #e2e8f0", marginBottom: "16px"}}>
+    <div style={{fontSize: "12px", fontWeight: "600", color: "#7c5cff", textTransform: "uppercase", letterSpacing: "0.5px", marginBottom: "8px"}}>Вариант 1</div>
+    <div style={{fontSize: "15px", color: "#334155", lineHeight: "1.6"}}>
+      <strong>244+ реальных кейсов EB-1A</strong> с RFE, NOID и Denial. По каждому кейсу отмечено: какие критерии заявляли, сколько засчитали <strong>(Sub/Met)</strong>, и статус каждого критерия — <span style={{color: "#16a34a"}}>✓ Met</span> или <span style={{color: "#dc2626"}}>✗ Not met</span>.
+    </div>
+  </div>
+
+  <div style={{padding: "20px 24px", backgroundColor: "#f8fafc", borderRadius: "12px", border: "1px solid #e2e8f0"}}>
+    <div style={{fontSize: "12px", fontWeight: "600", color: "#7c5cff", textTransform: "uppercase", letterSpacing: "0.5px", marginBottom: "8px"}}>Вариант 2</div>
+    <div style={{fontSize: "15px", color: "#334155", lineHeight: "1.6"}}>
+      <strong>Сводка 244 кейсов EB-1A</strong> с RFE/NOID/Denial: сервис-центр, номер офицера, Sub/Met и разметка критериев. Найдите кейсы по вашей сфере и посмотрите, какие критерии обычно засчитывают.
+    </div>
+  </div>
+</div>
 
 <div style={{display: "flex", alignItems: "center", gap: "12px", marginBottom: "12px", flexWrap: "wrap"}}>
   <span style={{color: "#6b7280", fontSize: "13px", fontWeight: "500"}}>По центру:</span>
@@ -55,6 +69,7 @@ mode: "wide"
   const container = document.querySelector('.rfe-table-container');
   const btn = document.getElementById('fullscreenBtn');
   container.classList.toggle('fullscreen');
+  document.body.classList.toggle('fullscreen-active');
   if (container.classList.contains('fullscreen')) {
     container.insertBefore(btn, container.firstChild);
     btn.textContent = '← Назад';
