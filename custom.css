@@ -139,29 +139,44 @@ a:hover {
 }
 
 /* Native fullscreen mode */
-.rfe-table-container:fullscreen {
-  background: white !important;
-  padding: 24px !important;
-  max-height: 100vh !important;
-  overflow: auto !important;
-}
-
+.rfe-table-container:fullscreen,
 .rfe-table-container:-webkit-full-screen {
   background: white !important;
-  padding: 24px !important;
+  padding: 0 !important;
+  padding-bottom: 80px !important;
   max-height: 100vh !important;
-  overflow: auto !important;
+  overflow-y: auto !important;
+  overflow-x: auto !important;
 }
 
-/* Back button in fullscreen */
+/* Sticky header in fullscreen - target th directly */
+.rfe-table-container:fullscreen th,
+.rfe-table-container:-webkit-full-screen th {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%) !important;
+}
+
+.rfe-table-container:fullscreen thead,
+.rfe-table-container:-webkit-full-screen thead {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+}
+
+
+/* Back button in fullscreen - bottom right */
 .rfe-table-container:fullscreen .fullscreen-btn,
-.rfe-table-container:-webkit-full-screen .fullscreen-btn {
+.rfe-table-container:-webkit-full-screen .fullscreen-btn,
+.fullscreen-btn.back-btn {
   position: fixed !important;
   bottom: 24px !important;
   right: 24px !important;
   z-index: 10001 !important;
   padding: 12px 24px !important;
   font-size: 14px !important;
+  box-shadow: 0 4px 12px rgba(124, 92, 255, 0.3) !important;
 }
 
 .rfe-table {

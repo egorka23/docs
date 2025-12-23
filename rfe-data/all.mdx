@@ -1,13 +1,13 @@
 ---
-title: "База RFE/NOID/Denial по EB-1A — 244 реальных кейса"
+title: "База RFE/NOID/Denial по EB-1A"
 sidebarTitle: "Все кейсы"
-description: "База 244 кейсов RFE, NOID и Denial EB-1A. Какие критерии заявляли, сколько засчитали, номера офицеров Nebraska и Texas."
+description: "244 реальных кейса EB-1A: какие критерии заявляли, сколько засчитали, номера офицеров."
 icon: "database"
 mode: "wide"
 ---
 
-<div style={{fontSize: "15px", color: "#334155", lineHeight: "1.7", marginBottom: "24px"}}>
-По каждому кейсу отмечено: какие критерии заявляли, сколько засчитали (Sub/Met), и статус каждого критерия — <span style={{color: "#16a34a"}}>✓ Met</span> или <span style={{color: "#dc2626"}}>✗ Not met</span>. RFE — запрос доказательств, NOID — намерение отказать, Denial — отказ.
+<div style={{fontSize: "15px", color: "#475569", marginBottom: "20px"}}>
+Тип решения • Центр • Офицер • Сфера • <strong>Sub/Met</strong> (заявлено/засчитано) • Статус каждого критерия
 </div>
 
 <div style={{display: "flex", alignItems: "center", gap: "12px", marginBottom: "12px", flexWrap: "wrap"}}>
@@ -53,18 +53,7 @@ mode: "wide"
   </div>
 </div>
 
-<button className="fullscreen-btn" id="fullscreenBtn" onClick={() => {
-  const container = document.querySelector('.rfe-table-container');
-  const btn = document.getElementById('fullscreenBtn');
-  if (!document.fullscreenElement) {
-    container.requestFullscreen().then(() => {
-      btn.textContent = '← Выйти (Esc)';
-      btn.classList.add('back-btn');
-    }).catch(err => console.log(err));
-  } else {
-    document.exitFullscreen();
-  }
-}}>⛶ На весь экран</button>
+<button className="fullscreen-btn" id="fullscreenBtn" onClick={() => { const c = document.querySelector('.rfe-table-container'); const b = document.getElementById('fullscreenBtn'); if (!document.fullscreenElement) { c.appendChild(b); c.requestFullscreen().then(() => { b.textContent = '← Назад'; b.classList.add('back-btn'); }); } else { document.exitFullscreen().then(() => { c.parentNode.insertBefore(b, c); b.textContent = '⛶ На весь экран'; b.classList.remove('back-btn'); }); } }}>⛶ На весь экран</button>
 
 <div className="rfe-table-container" style={{overflow: "auto", borderRadius: "12px", boxShadow: "0 4px 6px -1px rgba(0,0,0,0.1)", maxHeight: "75vh"}}>
   <table className="rfe-table" style={{borderCollapse: "separate", borderSpacing: "0", width: "100%", fontSize: "13px", minWidth: "1000px"}}>
