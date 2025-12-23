@@ -145,30 +145,15 @@ a:hover {
   left: 0 !important;
   right: 0 !important;
   bottom: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
   max-height: 100vh !important;
-  z-index: 99999 !important;
+  z-index: 2147483647 !important;
   border-radius: 0 !important;
   background: white !important;
-  padding-top: 16px !important;
-}
-
-/* Hide navbar in fullscreen */
-body.fullscreen-active header,
-body.fullscreen-active nav,
-body.fullscreen-active [class*="navbar"],
-body.fullscreen-active [class*="Navbar"],
-body.fullscreen-active [class*="header"],
-body.fullscreen-active [class*="Header"],
-body.fullscreen-active [class*="topbar"],
-body.fullscreen-active [class*="Topbar"],
-body.fullscreen-active > div > header,
-body.fullscreen-active > div > nav,
-body.fullscreen-active #__next > div > header,
-body.fullscreen-active #__next header {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
+  padding: 16px !important;
+  box-sizing: border-box !important;
+  overflow: auto !important;
 }
 
 /* Back button inside fullscreen container */
