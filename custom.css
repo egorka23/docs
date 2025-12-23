@@ -143,10 +143,30 @@ a:hover {
 .rfe-table-container:-webkit-full-screen {
   background: white !important;
   padding: 0 !important;
+  margin: 0 !important;
   padding-bottom: 80px !important;
   max-height: 100vh !important;
   overflow-y: auto !important;
   overflow-x: auto !important;
+}
+
+.rfe-table-container:fullscreen .rfe-table,
+.rfe-table-container:-webkit-full-screen .rfe-table {
+  margin: 0 !important;
+  margin-top: -1px !important;
+  border-spacing: 0 !important;
+}
+
+.rfe-table-container:fullscreen table,
+.rfe-table-container:-webkit-full-screen table {
+  margin-top: 0 !important;
+}
+
+/* Remove any gaps at top in fullscreen */
+.rfe-table-container:fullscreen > *:first-child,
+.rfe-table-container:-webkit-full-screen > *:first-child {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 /* Sticky header in fullscreen - target th directly */
