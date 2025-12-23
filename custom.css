@@ -156,8 +156,19 @@ a:hover {
 body.fullscreen-active header,
 body.fullscreen-active nav,
 body.fullscreen-active [class*="navbar"],
-body.fullscreen-active [class*="Navbar"] {
+body.fullscreen-active [class*="Navbar"],
+body.fullscreen-active [class*="header"],
+body.fullscreen-active [class*="Header"],
+body.fullscreen-active [class*="topbar"],
+body.fullscreen-active [class*="Topbar"],
+body.fullscreen-active > div > header,
+body.fullscreen-active > div > nav,
+body.fullscreen-active #__next > div > header,
+body.fullscreen-active #__next header {
   display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 
 /* Back button inside fullscreen container */
