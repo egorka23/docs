@@ -141,12 +141,12 @@ a:hover {
 /* Fullscreen mode */
 .rfe-table-container.fullscreen {
   position: fixed !important;
-  top: 60px !important;
+  top: 0 !important;
   left: 0 !important;
   right: 0 !important;
   bottom: 0 !important;
-  max-height: calc(100vh - 60px) !important;
-  z-index: 9999 !important;
+  max-height: 100vh !important;
+  z-index: 99999 !important;
   border-radius: 0 !important;
   background: white !important;
 }
