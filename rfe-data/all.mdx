@@ -60,21 +60,17 @@ mode: "wide"
 
 ### Легенда таблицы
 
-<div style={{background: '#f8fafc', borderRadius: '14px', padding: '20px', fontSize: '13px', lineHeight: '2', marginBottom: '20px'}}>
-  <div style={{marginBottom: '12px'}}>
-    <strong style={{color: '#334155'}}>Статус критерия:</strong>{' '}
-    <span style={{padding: '3px 8px', background: '#dcfce7', color: '#16a34a', borderRadius: '4px', marginLeft: '8px'}}>✓ засчитан</span>
-    <span style={{padding: '3px 8px', background: '#fee2e2', color: '#dc2626', borderRadius: '4px', marginLeft: '8px'}}>✗ не засчитан</span>
-  </div>
-  <div style={{marginBottom: '12px'}}>
-    <strong style={{color: '#334155'}}>Тип решения:</strong>{' '}
-    <span style={{padding: '4px 10px', background: '#fef3c7', color: '#d97706', borderRadius: '20px', marginLeft: '8px', fontWeight: '600', fontSize: '11px', minWidth: '50px', textAlign: 'center', display: 'inline-block'}}>RFE</span>
-    <span style={{padding: '4px 10px', background: '#f97316', color: 'white', borderRadius: '20px', marginLeft: '4px', fontWeight: '600', fontSize: '11px', minWidth: '50px', textAlign: 'center', display: 'inline-block'}}>NOID</span>
-    <span style={{padding: '4px 10px', background: '#dc2626', color: 'white', borderRadius: '20px', marginLeft: '4px', fontWeight: '600', fontSize: '11px', minWidth: '50px', textAlign: 'center', display: 'inline-block'}}>Denial</span>
-  </div>
-  <div style={{color: '#64748b'}}>
-    <strong>Sub/Met</strong> = заявлено/засчитано критериев • <strong>Officer</strong> = номер офицера USCIS
-  </div>
+<div style={{background: '#f8fafc', borderRadius: '12px', padding: '12px 16px', fontSize: '12px', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap'}}>
+  <span style={{display: 'flex', gap: '6px', alignItems: 'center'}}>
+    <span style={{padding: '2px 6px', background: '#dcfce7', color: '#16a34a', borderRadius: '4px', fontSize: '11px'}}>✓ засчитан</span>
+    <span style={{padding: '2px 6px', background: '#fee2e2', color: '#dc2626', borderRadius: '4px', fontSize: '11px'}}>✗ не засчитан</span>
+  </span>
+  <span style={{display: 'flex', gap: '4px', alignItems: 'center'}}>
+    <span style={{padding: '2px 8px', background: '#fef3c7', color: '#d97706', borderRadius: '12px', fontWeight: '600', fontSize: '10px'}}>RFE</span>
+    <span style={{padding: '2px 8px', background: '#f97316', color: 'white', borderRadius: '12px', fontWeight: '600', fontSize: '10px'}}>NOID</span>
+    <span style={{padding: '2px 8px', background: '#dc2626', color: 'white', borderRadius: '12px', fontWeight: '600', fontSize: '10px'}}>Denial</span>
+  </span>
+  <span style={{color: '#64748b', fontSize: '11px'}}><strong>Sub/Met</strong> = заявлено/засчитано • <strong>Officer</strong> = номер офицера</span>
 </div>
 
 
