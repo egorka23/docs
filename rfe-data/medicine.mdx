@@ -58,6 +58,9 @@ mode: "wide"
   </div>
 </div>
 
+
+
+
 <button className="fullscreen-btn" id="fullscreenBtn" onClick={() => { const c = document.querySelector('.rfe-table-container'); const b = document.getElementById('fullscreenBtn'); if (!document.fullscreenElement) { c.appendChild(b); c.requestFullscreen().then(() => { b.textContent = '← Назад'; b.classList.add('back-btn'); }); } else { document.exitFullscreen().then(() => { c.parentNode.insertBefore(b, c); b.textContent = '⛶ На весь экран'; b.classList.remove('back-btn'); }); } }}>⛶ На весь экран</button>
 
 <div className="rfe-table-container" style={{overflow: "auto", borderRadius: "12px", boxShadow: "0 4px 6px -1px rgba(0,0,0,0.1)", maxHeight: "75vh"}}>

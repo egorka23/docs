@@ -43,6 +43,9 @@ mode: "wide"
   </div>
 </div>
 
+
+
+
 <button className="fullscreen-btn" id="fullscreenBtn" onClick={() => { const c = document.querySelector('.rfe-table-container'); const b = document.getElementById('fullscreenBtn'); if (!document.fullscreenElement) { c.appendChild(b); c.requestFullscreen().then(() => { b.textContent = '← Назад'; b.classList.add('back-btn'); }); } else { document.exitFullscreen().then(() => { c.parentNode.insertBefore(b, c); b.textContent = '⛶ На весь экран'; b.classList.remove('back-btn'); }); } }}>⛶ На весь экран</button>
 
 <div className="rfe-table-container" style={{overflow: "auto", borderRadius: "12px", boxShadow: "0 4px 6px -1px rgba(0,0,0,0.1)", maxHeight: "75vh"}}>
@@ -199,7 +202,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0150</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Financial analyst</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/1</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/1</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Critical ✓</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -207,7 +210,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0413</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Software engineer for meta</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/1</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/1</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Critical ✓</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -215,7 +218,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0258</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Cloud quality engineer</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/4</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/4</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Media ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Scholarly ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Critical ✓</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -223,7 +226,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0413</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Software engineer for meta</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/0</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -263,7 +266,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0002</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Software Engineer</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/0</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -279,7 +282,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0342</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Art teacher</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>9</strong>/9</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>8</strong>/8</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Award ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Association ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Media ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Original ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Scholarly ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Exhibition ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Critical ✓</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -295,7 +298,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0150</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Financial analyst</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/0</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>4</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -311,7 +314,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0592</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>ML Engineer</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>4</strong>/1</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>3</strong>/1</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -319,7 +322,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0024</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Architectural Manager</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/2</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/2</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Scholarly ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -335,7 +338,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0368</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>International Law Consultant</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>9</strong>/0</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>8</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Exhibition ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -343,7 +346,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0413</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Digital project manager</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/0</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -359,7 +362,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0318</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Business appraiser</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>8</strong>/4</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/4</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Association ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Media ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Scholarly ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -375,7 +378,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0150</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Construction manager</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/1</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/1</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Scholarly ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -383,7 +386,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0242</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Venture capitalist and investor</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>4</strong>/2</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>3</strong>/2</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Critical ✓</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -399,7 +402,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0787</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Software Engineer</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>8</strong>/0</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -407,7 +410,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0592</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Art teacher in the field of art education</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/2</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>8</strong>/2</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Exhibition ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -415,7 +418,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0738</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Business Development Officer</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/0</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -431,7 +434,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0413</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Ceo/developer in web development</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/0</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -439,7 +442,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0342</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Ceo construction</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/1</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/1</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Critical ✓</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -479,7 +482,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0624</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Film/TV Editing Director</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/0</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -511,7 +514,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0787</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Logistics Manager</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/2</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/2</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Scholarly ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Exhibition ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -543,7 +546,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0024</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Photographer</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>9</strong>/2</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>8</strong>/2</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Exhibition ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -551,7 +554,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0592</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Software Developer</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/0</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>0</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -559,7 +562,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0985</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Ballroom Dancer</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/1</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/1</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Association ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -567,7 +570,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0258</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Art director</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>8</strong>/2</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/2</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Exhibition ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -583,7 +586,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0624</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Sitecore Technical Director</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/0</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -591,7 +594,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0738</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Photographer</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>8</strong>/2</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/2</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Award ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Exhibition ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -599,7 +602,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0150</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Entrepreneur in the field of real estate development</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/2</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/2</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Scholarly ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -623,7 +626,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0624</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Construction Manager</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/0</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -639,7 +642,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0787</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>International Trade Manager</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/1</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/1</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Scholarly ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -647,7 +650,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0787</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Software Engineer</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/2</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>7</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Scholarly ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -679,7 +682,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0592</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>VFX Artist</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/0</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/0</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Media ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Scholarly ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Exhibition ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#fff"}}>
@@ -687,7 +690,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0438</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Small Business CEO</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/2</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/2</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Judgement ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Scholarly ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
@@ -703,7 +706,7 @@ mode: "wide"
         <td className="hide-mobile" style={{padding: "8px 10px", fontSize: "12px"}}>Nebraska</td>
         <td className="hide-mobile" style={{padding: "8px 10px", textAlign: "center", fontFamily: "monospace", fontSize: "12px"}}>0438</td>
         <td style={{padding: "8px 10px", fontSize: "12px", maxWidth: "150px"}}>Small Business CEO</td>
-        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>6</strong>/1</td>
+        <td style={{padding: "8px 10px", textAlign: "center", fontSize: "12px", whiteSpace: "nowrap"}}><strong>5</strong>/1</td>
         <td style={{padding: "8px 10px"}}><span style={{display: "inline-flex", gap: "6px", flexWrap: "nowrap"}}><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Association ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Judgement ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Original ✗</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#dcfce7", color: "#16a34a", fontSize: "11px", fontWeight: "500"}}>Scholarly ✓</span><span style={{padding: "3px 8px", borderRadius: "4px", backgroundColor: "#fee2e2", color: "#dc2626", fontSize: "11px", fontWeight: "500"}}>Critical ✗</span></span></td>
       </tr>
       <tr style={{borderBottom: "1px solid #e5e7eb", backgroundColor: "#f8f9fb"}}>
