@@ -44,10 +44,19 @@ mode: "wide"
   container.classList.toggle('fullscreen');
   document.body.classList.toggle('fullscreen-active');
   if (container.classList.contains('fullscreen')) {
+    let overlay = document.getElementById('navbar-overlay');
+    if (!overlay) {
+      overlay = document.createElement('div');
+      overlay.id = 'navbar-overlay';
+      overlay.style.cssText = 'position:fixed;top:0;left:0;right:0;height:80px;background:white;z-index:2147483646;';
+      document.body.appendChild(overlay);
+    }
     container.insertBefore(btn, container.firstChild);
     btn.textContent = '← Назад';
     btn.classList.add('back-btn');
   } else {
+    const overlay = document.getElementById('navbar-overlay');
+    if (overlay) overlay.remove();
     container.parentNode.insertBefore(btn, container);
     btn.textContent = '⛶ На весь экран';
     btn.classList.remove('back-btn');

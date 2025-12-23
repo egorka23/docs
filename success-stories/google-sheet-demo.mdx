@@ -1,0 +1,138 @@
+---
+title: "Статистика (Google Sheets)"
+description: "Интерактивная таблица со статистикой кейсов"
+icon: "table"
+---
+
+## Вариант 1: Ссылка на отдельную страницу сайта
+
+Кнопка ведёт на полноэкранную страницу **внутри вашего сайта** (не на Google):
+
+<div className="flex justify-end mb-3">
+  <a
+    href="/success-stories/statistics-fullscreen"
+    className="inline-flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors font-medium"
+  >
+    ⛶ Полный экран
+  </a>
+</div>
+<iframe
+  src="https://docs.google.com/spreadsheets/d/1cKDWJevy364WyT0HU3IA7rs5Heqag9Sv8all6s8nlv8/preview?gid=0"
+  title="Статистика кейсов"
+  className="w-full h-[500px] rounded-xl border shadow-lg"
+/>
+
+---
+
+## Вариант 2: Expandable (раскрывается на месте)
+
+<Expandable title="Развернуть таблицу на весь экран">
+  <iframe
+    src="https://docs.google.com/spreadsheets/d/1cKDWJevy364WyT0HU3IA7rs5Heqag9Sv8all6s8nlv8/preview?gid=0"
+    title="Статистика"
+    className="w-full h-[700px] rounded-xl border"
+  />
+</Expandable>
+
+<iframe
+  src="https://docs.google.com/spreadsheets/d/1cKDWJevy364WyT0HU3IA7rs5Heqag9Sv8all6s8nlv8/preview?gid=0"
+  title="Статистика превью"
+  className="w-full h-[300px] rounded-xl border shadow-lg"
+/>
+
+---
+
+## Вариант 3: Accordion с большой таблицей
+
+Компактный вид по умолчанию, разворачивается по клику:
+
+<AccordionGroup>
+  <Accordion title="Показать полную таблицу статистики" icon="expand">
+    <iframe
+      src="https://docs.google.com/spreadsheets/d/1cKDWJevy364WyT0HU3IA7rs5Heqag9Sv8all6s8nlv8/preview?gid=0"
+      title="Статистика"
+      className="w-full h-[600px] rounded-lg"
+    />
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Вариант 4: Tabs - компактный и полный вид
+
+<Tabs>
+  <Tab title="Компактный вид">
+    <iframe
+      src="https://docs.google.com/spreadsheets/d/1cKDWJevy364WyT0HU3IA7rs5Heqag9Sv8all6s8nlv8/preview?gid=0"
+      title="Статистика компакт"
+      className="w-full h-[350px] rounded-lg border"
+    />
+  </Tab>
+  <Tab title="Полный экран">
+    <iframe
+      src="https://docs.google.com/spreadsheets/d/1cKDWJevy364WyT0HU3IA7rs5Heqag9Sv8all6s8nlv8/preview?gid=0"
+      title="Статистика полный"
+      className="w-full h-[700px] rounded-lg border"
+    />
+  </Tab>
+</Tabs>
+
+---
+
+## Вариант 5: Карточка со ссылкой на внутреннюю страницу
+
+<div className="border rounded-xl overflow-hidden shadow-lg">
+  <div className="flex justify-between items-center px-4 py-3 bg-gray-50 border-b">
+    <span className="font-semibold text-gray-700">Статистика одобрений O-1/EB-1/NIW</span>
+    <a
+      href="/success-stories/statistics-fullscreen"
+      className="inline-flex items-center gap-1 px-3 py-1.5 bg-purple-600 text-white rounded-md hover:bg-purple-700 text-sm font-medium"
+    >
+      ⛶ Развернуть
+    </a>
+  </div>
+  <iframe
+    src="https://docs.google.com/spreadsheets/d/1cKDWJevy364WyT0HU3IA7rs5Heqag9Sv8all6s8nlv8/preview?gid=0"
+    title="Статистика"
+    className="w-full h-[400px]"
+  />
+</div>
+
+---
+
+## Вариант 6: Frame с градиентом
+
+<Frame>
+  <div className="flex justify-between items-center p-4 bg-gradient-to-r from-purple-600 to-blue-600 text-white">
+    <div>
+      <h3 className="font-bold text-lg m-0">Статистика одобрений</h3>
+      <p className="text-purple-100 text-sm m-0">Данные обновляются автоматически</p>
+    </div>
+    <a
+      href="/success-stories/statistics-fullscreen"
+      className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-purple-700 rounded-lg hover:bg-purple-50 transition-colors font-bold shadow-lg"
+    >
+      ⛶ Полный экран
+    </a>
+  </div>
+  <iframe
+    src="https://docs.google.com/spreadsheets/d/1cKDWJevy364WyT0HU3IA7rs5Heqag9Sv8all6s8nlv8/preview?gid=0"
+    title="Статистика"
+    className="w-full h-[450px]"
+  />
+</Frame>
+
+---
+
+<Tip>
+**Для SEO лучше:**
+- Ссылки на внутренние страницы (`/success-stories/statistics-fullscreen`)
+- Accordion/Tabs - пользователь остаётся на той же странице
+- Expandable - контент раскрывается без перехода
+</Tip>
+
+<Warning>
+**Избегайте для SEO:**
+- `target="_blank"` на внешние сайты
+- Ссылки на Google Sheets напрямую
+</Warning>

@@ -154,7 +154,10 @@ a:hover {
   padding: 16px !important;
   box-sizing: border-box !important;
   overflow: auto !important;
+  isolation: isolate !important;
 }
+
+/* Navbar overlay is created via JavaScript */
 
 /* Back button inside fullscreen container */
 .rfe-table-container.fullscreen .fullscreen-btn,
