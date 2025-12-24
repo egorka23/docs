@@ -11,7 +11,8 @@ cd ~/mintlify-docs && claude
 ## Скопируй и вставь при начале сессии:
 
 ```
-Это Mintlify документация для сайта o1eb1.com/docs/
+Работаем с Mintlify документацией (MDX файлы) для сайта o1eb1.com/docs/
+НЕ используем Google Sheets, Notion или другие базы. Только редактирование .mdx файлов.
 
 СТРУКТУРА:
 ~/mintlify-docs/
