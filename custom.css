@@ -10,6 +10,28 @@ a:hover {
   text-decoration: underline !important;
 }
 
+/* Purple links in content (paragraphs, lists, text) */
+article a,
+.prose a,
+main p a,
+main li a,
+main blockquote a {
+  color: #7c5cff !important;
+  text-decoration: underline !important;
+  text-decoration-color: rgba(124, 92, 255, 0.4) !important;
+  text-underline-offset: 3px !important;
+  transition: all 0.15s ease !important;
+}
+
+article a:hover,
+.prose a:hover,
+main p a:hover,
+main li a:hover,
+main blockquote a:hover {
+  color: #6b4ce6 !important;
+  text-decoration-color: #6b4ce6 !important;
+}
+
 /* Bot cards - stack vertically on mobile */
 .bot-cards {
   display: grid;

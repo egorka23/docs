@@ -23,6 +23,13 @@
         ]
       },
       {
+        "group": "FINAL MERITS",
+        "pages": [
+          "final-merits",
+          "kazarian"
+        ]
+      },
+      {
         "group": "АДМИНИСТРАТИВНАЯ ПРОВЕРКА",
         "pages": [
           "administrative-check/faq",
@@ -128,7 +135,7 @@
     "indexHiddenPages": false
   },
   "layout": {
-    "contentWidth": "wide"
+    "contentWidth": "default"
   },
   "analytics": {
     "ga4": {
