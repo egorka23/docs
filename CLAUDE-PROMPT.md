@@ -6,22 +6,32 @@
 cd ~/mintlify-docs && claude
 ```
 
-Или открой папку в терминале и запусти `claude`.
-
 ---
 
-Скопируй и вставь при начале новой сессии:
-
----
+## Скопируй и вставь при начале сессии:
 
 ```
-Работаем с Mintlify docs в ~/mintlify-docs/
+Это Mintlify документация для сайта o1eb1.com/docs/
+
+СТРУКТУРА:
+~/mintlify-docs/
+├── docs.json              # Конфигурация навигации
+├── rfe-data/              # База RFE кейсов (241 кейс)
+│   ├── all.mdx            # Все кейсы
+│   ├── nebraska.mdx       # По центрам
+│   ├── texas.mdx
+│   ├── business.mdx       # По профессиям
+│   ├── it-software.mdx
+│   └── ...
+├── success-stories/       # Истории успеха (108 кейсов)
+├── administrative-check/  # FAQ по 221(g), Mandamus и т.д.
+└── LINKS-GUIDE.md         # Полный гайд по работе
 
 ПРАВИЛА:
-1. Ссылки: href="/rfe-data/..." (БЕЗ /docs). Mintlify сам добавит /docs на проде
-2. Frontmatter: title короткий (для меню), seo.title длинный (для Google)
+1. Ссылки: href="/rfe-data/..." (БЕЗ /docs в начале!)
+2. Frontmatter: title короткий, seo.title длинный с ключевыми словами
 3. Заголовки: H2 для "On this page" (6-8 макс), H3 для деталей
-4. Нет длинных тире (—), нет стрелок (→) - это признаки AI
+4. Нет длинных тире (—), нет стрелок (→) - признаки AI
 5. Нет эмодзи если не попросили
 
 QA перед пушем:
@@ -33,19 +43,8 @@ cd ~/mintlify-docs && npx mintlify dev
 open http://localhost:3000
 
 Деплой:
-git add . && git commit -m "описание" && git push
+cd ~/mintlify-docs && git add . && git commit -m "описание" && git push
 
 Прод: https://o1eb1.com/docs/
 Полный гайд: ~/mintlify-docs/LINKS-GUIDE.md
-```
-
----
-
-## Короткая версия (минимум)
-
-```
-Mintlify docs: ~/mintlify-docs/
-- Ссылки без /docs: href="/rfe-data/..."
-- Нет — и →
-- Гайд: ~/mintlify-docs/LINKS-GUIDE.md
 ```
