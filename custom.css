@@ -291,3 +291,113 @@ details a:hover {
   color: white !important;
   border: none !important;
 }
+
+/* Pill buttons hover effect */
+.pill-btn {
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.pill-btn:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+}
+
+/* Glowing dots animation - appear then pulse forever */
+@keyframes dotAppear {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  2% {
+    transform: scale(1.4);
+    opacity: 1;
+  }
+  4%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+}
+
+@keyframes dotPulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.8);
+    opacity: 1;
+  }
+}
+
+@keyframes dotPulseSlow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.8);
+    opacity: 1;
+  }
+}
+
+/* Stat cards - no underlines */
+.stat-card,
+.stat-card:hover,
+.stat-card *,
+.stat-card *:hover,
+.stat-card div,
+.stat-card div:hover,
+.stat-card a,
+.stat-card a:hover {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  text-decoration-line: none !important;
+  text-underline-offset: unset !important;
+}
+
+a.stat-card,
+a.stat-card:hover {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.stat-card {
+  transition: transform 0.2s ease !important;
+  display: block !important;
+}
+
+.stat-card:hover {
+  transform: scale(1.03) translateY(-4px) !important;
+}
+
+.stat-card:hover > div {
+  box-shadow: 0 16px 40px rgba(0,0,0,0.15) !important;
+}
+
+/* Wide mode pages - hide default header and expand content */
+[data-page-wide="true"] header,
+article > header:first-child,
+.prose > header:first-child {
+  display: none !important;
+}
+
+/* Make content area wider */
+article,
+.prose,
+main > div > div {
+  max-width: 100% !important;
+}
+
+/* Hide page title/description block for custom landing pages */
+[class*="PageHeader"],
+[class*="page-header"],
+.page-title-section {
+  display: none !important;
+}
+
+/* Ensure wide mode uses full width */
+[data-wide="true"] article,
+.wide article {
+  max-width: none !important;
+  width: 100% !important;
+}
