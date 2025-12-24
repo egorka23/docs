@@ -18,6 +18,10 @@ QA перед пушем:
 rg "→|—" ~/mintlify-docs --glob "*.mdx"  # должно быть 0
 grep -r 'href="/docs/' ~/mintlify-docs   # должно быть 0
 
+Локально:
+cd ~/mintlify-docs && npx mintlify dev
+open http://localhost:3000
+
 Деплой:
 git add . && git commit -m "описание" && git push
 
