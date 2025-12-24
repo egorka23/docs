@@ -10,12 +10,12 @@ a:hover {
   text-decoration: underline !important;
 }
 
-/* Purple links in content (paragraphs, lists, text) */
-article a,
-.prose a,
-main p a,
-main li a,
-main blockquote a {
+/* Purple links in content (paragraphs, lists, text) - except styled buttons */
+article a:not([style*="background"]),
+.prose a:not([style*="background"]),
+main p a:not([style*="background"]),
+main li a:not([style*="background"]),
+main blockquote a:not([style*="background"]) {
   color: #7c5cff !important;
   text-decoration: underline !important;
   text-decoration-color: rgba(124, 92, 255, 0.4) !important;
@@ -23,11 +23,11 @@ main blockquote a {
   transition: all 0.15s ease !important;
 }
 
-article a:hover,
-.prose a:hover,
-main p a:hover,
-main li a:hover,
-main blockquote a:hover {
+article a:not([style*="background"]):hover,
+.prose a:not([style*="background"]):hover,
+main p a:not([style*="background"]):hover,
+main li a:not([style*="background"]):hover,
+main blockquote a:not([style*="background"]):hover {
   color: #6b4ce6 !important;
   text-decoration-color: #6b4ce6 !important;
 }
