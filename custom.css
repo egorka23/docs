@@ -498,16 +498,9 @@ main > div > div {
     width: 44px !important;
     min-width: 44px !important;
     max-width: 44px !important;
-    flex: 0 0 44px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
     margin-left: 8px !important;
-  }
-
-  button.lg\:hidden div,
-  button[class*="lg:hidden"] div {
-    color: white !important;
   }
 
   button.lg\:hidden svg,
@@ -516,8 +509,7 @@ main > div > div {
     width: 24px !important;
     fill: white !important;
     color: white !important;
-    margin: 0 auto !important;
-    display: block !important;
+    stroke: white !important;
   }
   /* Hero section padding */
   .hero-section {
