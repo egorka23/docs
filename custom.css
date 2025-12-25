@@ -319,12 +319,18 @@ details a:hover {
   padding: 16px !important;
 }
 
-/* Steps component - filled purple circles */
+/* Steps component - filled purple circles, larger */
 [class*="step"] [class*="number"],
 [class*="Step"] [class*="number"] {
   background: #7c5cff !important;
   color: white !important;
   border: none !important;
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px !important;
+  min-height: 36px !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
 }
 
 /* Pill buttons hover effect */
