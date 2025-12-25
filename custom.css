@@ -284,6 +284,41 @@ details a:hover {
   color: #7C3AED !important;
 }
 
+/* Accordion header styling - colored background (only on pages with .styled-accordions class) */
+.styled-accordions [data-state="closed"] > button,
+.styled-accordions [data-state="open"] > button,
+.styled-accordions details > summary {
+  background: linear-gradient(135deg, #f8f7ff 0%, #f0ecff 100%) !important;
+  border-radius: 10px !important;
+  padding: 14px 16px !important;
+  border: 1px solid rgba(124, 92, 255, 0.15) !important;
+  transition: all 0.2s ease !important;
+}
+
+.styled-accordions [data-state="closed"] > button:hover,
+.styled-accordions [data-state="open"] > button:hover,
+.styled-accordions details > summary:hover {
+  background: linear-gradient(135deg, #f0ecff 0%, #e8e2ff 100%) !important;
+  border-color: rgba(124, 92, 255, 0.3) !important;
+}
+
+/* Open state - slightly different color */
+.styled-accordions [data-state="open"] > button {
+  background: linear-gradient(135deg, #e8e2ff 0%, #ddd6ff 100%) !important;
+  border-color: rgba(124, 92, 255, 0.25) !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+/* Accordion content area */
+.styled-accordions [data-state="open"] > div {
+  background: #faf9ff !important;
+  border: 1px solid rgba(124, 92, 255, 0.15) !important;
+  border-top: none !important;
+  border-radius: 0 0 10px 10px !important;
+  padding: 16px !important;
+}
+
 /* Steps component - filled purple circles */
 [class*="step"] [class*="number"],
 [class*="Step"] [class*="number"] {
