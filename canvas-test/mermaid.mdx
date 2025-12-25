@@ -1,0 +1,82 @@
+---
+title: "Mermaid Diagrams Test"
+description: "Тест встроенных диаграмм Mermaid"
+icon: "diagram-project"
+---
+
+## Вариант 4: Mermaid Diagrams
+
+Встроенная поддержка Mintlify. Диаграммы из кода, без внешних зависимостей.
+
+### Плюсы
+- Встроено в Mintlify
+- Никаких зависимостей
+- Код = диаграмма (легко редактировать)
+- Автоматический рендеринг
+
+### Минусы
+- Не бесконечная доска
+- Ограниченный дизайн
+- Сложные диаграммы = сложный код
+
+---
+
+### Демо: Flowchart
+
+```mermaid
+flowchart LR
+    A[Выбор критериев] --> B[Сбор доказательств]
+    B --> C[Подготовка петиции]
+    C --> D{RFE?}
+    D -->|Да| E[Ответ на RFE]
+    D -->|Нет| F[Approval]
+    E --> F
+    F --> G[NVC Processing]
+    G --> H[Интервью]
+    H --> I[Виза]
+```
+
+### Демо: Timeline
+
+```mermaid
+timeline
+    title Road Map EB-1A
+    section Подготовка
+        Критерии : Выбрать 3+ из 10
+        Evidence : Собрать доказательства
+    section Подача
+        I-140 : Подать петицию
+        RFE : Возможный запрос
+    section Финал
+        Approval : Одобрение
+        NVC : Консульская обработка
+        Visa : Получение визы
+```
+
+### Демо: Mind Map
+
+```mermaid
+mindmap
+  root((EB-1A))
+    Критерии
+      Awards
+      Membership
+      Published Material
+      Judging
+      Original Contribution
+      Scholarly Articles
+      Exhibitions
+      Leading Role
+      High Salary
+      Commercial Success
+    Процесс
+      I-140
+      RFE
+      Approval
+      NVC
+      Interview
+```
+
+<Note>
+Mermaid отлично подходит для простых диаграмм процессов. Но это не интерактивная бесконечная доска.
+</Note>

@@ -1,0 +1,56 @@
+---
+title: "Excalidraw Test"
+description: "Тест бесконечной доски Excalidraw"
+icon: "pen-ruler"
+---
+
+## Вариант 1: Excalidraw
+
+Open-source бесконечная доска. Можно зумить, перемещаться, рисовать.
+
+### Плюсы
+- Полностью бесплатный и open-source
+- Можно экспортировать файл и хранить локально
+- Красивый минималистичный дизайн
+- Работает offline
+
+### Минусы
+- Для независимости нужен свой хостинг viewer'а
+- Или зависимость от excalidraw.com
+
+---
+
+### Демо: Embed через excalidraw.com
+
+<div style={{borderRadius: '12px', overflow: 'hidden', border: '1px solid #e4e4e7', marginTop: '24px', marginBottom: '24px'}}>
+  <iframe
+    src="https://excalidraw.com/"
+    width="100%"
+    height="600"
+    frameBorder="0"
+    allow="clipboard-read; clipboard-write"
+  />
+</div>
+
+<Note>
+Это живой Excalidraw. Можно рисовать, зумить колесом мыши, перетаскивать.
+</Note>
+
+---
+
+### Демо: Готовая доска (read-only)
+
+Можно создать доску, экспортировать как ссылку и встроить:
+
+<div style={{borderRadius: '12px', overflow: 'hidden', border: '1px solid #e4e4e7', marginTop: '24px', marginBottom: '24px'}}>
+  <iframe
+    src="https://excalidraw.com/#json=example"
+    width="100%"
+    height="500"
+    frameBorder="0"
+  />
+</div>
+
+<Warning>
+**Зависимость**: excalidraw.com должен работать. Для полной независимости нужно захостить viewer на своём домене.
+</Warning>

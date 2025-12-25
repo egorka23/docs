@@ -104,6 +104,17 @@
           "usa140",
           "help"
         ]
+      },
+      {
+        "group": "ТЕСТЫ CANVAS",
+        "pages": [
+          "canvas-test/index",
+          "canvas-test/excalidraw",
+          "canvas-test/tldraw",
+          "canvas-test/panzoom",
+          "canvas-test/mermaid",
+          "canvas-test/reactflow"
+        ]
       }
     ]
   },

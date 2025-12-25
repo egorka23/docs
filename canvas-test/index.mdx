@@ -1,0 +1,55 @@
+---
+title: "Canvas Tests"
+description: "Тестирование разных вариантов бесконечных досок"
+icon: "flask"
+---
+
+## Сравнение вариантов бесконечных досок
+
+Тестируем разные способы создать интерактивную карту/доску без зависимости от Miro.
+
+<CardGroup cols={2}>
+  <Card title="Excalidraw" icon="pen-ruler" href="/canvas-test/excalidraw">
+    Open-source доска. Красивый минималистичный стиль.
+  </Card>
+  <Card title="tldraw" icon="paintbrush" href="/canvas-test/tldraw">
+    Альтернатива Excalidraw с другим дизайном.
+  </Card>
+  <Card title="Pan/Zoom SVG" icon="magnifying-glass-plus" href="/canvas-test/panzoom">
+    Свой viewer без зависимостей. Загружаем картинку + зум/pan.
+  </Card>
+  <Card title="Mermaid" icon="diagram-project" href="/canvas-test/mermaid">
+    Встроенные диаграммы Mintlify из кода.
+  </Card>
+  <Card title="React Flow" icon="share-nodes" href="/canvas-test/reactflow">
+    Node-based диаграммы для workflow.
+  </Card>
+</CardGroup>
+
+---
+
+## Сравнительная таблица
+
+<span style={{background: '#f4f4f5', padding: '4px 12px', borderRadius: '20px', fontSize: '12px', color: '#71717a'}}>← Листайте таблицу →</span>
+
+| Вариант | Бесконечная доска | Зум/Pan | Без зависимостей | Сложность | Рекомендация |
+|---------|-------------------|---------|------------------|-----------|--------------|
+| **Excalidraw** | ✅ | ✅ | ⚠️ Нужен хостинг | Средняя | Лучший баланс |
+| **tldraw** | ✅ | ✅ | ⚠️ Нужен хостинг | Средняя | Альтернатива |
+| **Pan/Zoom SVG** | ✅ | ✅ | ✅ Полностью | Низкая | Самый простой |
+| **Mermaid** | ❌ | ❌ | ✅ Встроено | Низкая | Для простых схем |
+| **React Flow** | ✅ | ✅ | ⚠️ Кастом | Высокая | Для сложных workflow |
+
+---
+
+## Моя рекомендация
+
+<Card title="Pan/Zoom SVG" icon="star">
+  **Для вашего случая лучше всего подойдет Pan/Zoom SVG:**
+
+  1. Экспортируем Miro как высокое разрешение PNG/SVG
+  2. Загружаем на ваш хостинг
+  3. Добавляем простой JS для зума и перетаскивания
+  4. Никаких внешних зависимостей
+  5. Если Miro удалит доску - у вас останется копия
+</Card>
