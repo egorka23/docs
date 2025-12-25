@@ -12,7 +12,7 @@
   function updateButtonPosition() {
     const btn = document.getElementById('ai-assistant-btn');
     if (!btn) return;
-    btn.style.bottom = isRfePage() ? '90px' : '5px';
+    btn.style.bottom = isRfePage() ? '90px' : '24px';
   }
 
   function createButton() {
@@ -37,7 +37,7 @@
     // Apply styles
     btn.style.cssText = `
       position: fixed;
-      bottom: 5px;
+      bottom: 24px;
       right: 24px;
       z-index: 1000;
       display: flex;
