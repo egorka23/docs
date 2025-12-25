@@ -488,6 +488,27 @@ main > div > div {
 
 /* Mobile breakpoint */
 @media (max-width: 600px) {
+  /* Bigger hamburger menu button */
+  [class*="burger"],
+  [class*="Burger"],
+  [class*="menu-toggle"],
+  [class*="MenuToggle"],
+  [class*="sidebar-toggle"],
+  [class*="nav-toggle"],
+  button[aria-expanded] {
+    transform: scale(1.4) !important;
+    padding: 8px !important;
+    background: #7c5cff !important;
+    border-radius: 8px !important;
+    margin-left: 4px !important;
+  }
+
+  [class*="burger"] svg,
+  [class*="Burger"] svg,
+  button[aria-expanded] svg {
+    color: white !important;
+    stroke: white !important;
+  }
   /* Hero section padding */
   .hero-section {
     padding: 32px 20px !important;
