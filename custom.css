@@ -412,3 +412,221 @@ main > div > div {
   max-width: none !important;
   width: 100% !important;
 }
+
+/* =====================================================
+   MOBILE RESPONSIVE STYLES FOR HOMEPAGE
+   ===================================================== */
+
+/* Tablet breakpoint */
+@media (max-width: 900px) {
+  /* Hero section - stack vertically */
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+  }
+
+  /* Hide hero cards on tablet/mobile */
+  .hero-cards {
+    display: none !important;
+  }
+
+  /* Section grids - stack vertically */
+  .section-grid {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+    padding: 32px 0 !important;
+  }
+
+  /* Reset order for stacked sections */
+  .section-grid > div {
+    order: 0 !important;
+  }
+
+  /* Hide decorative visual cards in sections (right side illustrations) */
+  .section-grid > div:last-child:not(:first-child) {
+    display: none !important;
+  }
+
+  /* Make the text section full width */
+  .section-grid > div:first-child {
+    max-width: 100% !important;
+  }
+
+  /* Chat cards - 2 columns on tablet */
+  .chat-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  /* Stats cards - wrap better */
+  .stats-row {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+
+  /* Stats cards smaller on tablet */
+  .stats-row .stat-card > div {
+    width: 280px !important;
+    padding: 24px 20px !important;
+  }
+
+  /* Community cards - wrap on tablet */
+  .community-cards {
+    gap: 16px !important;
+  }
+
+  .community-cards > div > div {
+    padding: 24px 32px !important;
+  }
+
+  /* Reduce gap in sections */
+  .stats-section,
+  .chats-section,
+  .community-section {
+    padding: 48px 32px !important;
+  }
+}
+
+/* Mobile breakpoint */
+@media (max-width: 600px) {
+  /* Hero section padding */
+  .hero-section {
+    padding: 32px 20px !important;
+    border-radius: 16px !important;
+  }
+
+  /* Hero title smaller */
+  .hero-title {
+    font-size: 36px !important;
+  }
+
+  /* Hero description */
+  .hero-desc {
+    font-size: 16px !important;
+  }
+
+  /* Section titles smaller */
+  .section-grid h2 {
+    font-size: 28px !important;
+  }
+
+  /* Section descriptions */
+  .section-grid p {
+    font-size: 16px !important;
+  }
+
+  /* Chat cards - 1 column on mobile */
+  .chat-grid {
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+  }
+
+  /* Chat card inner div smaller padding */
+  .chat-grid .stat-card > div {
+    padding: 20px !important;
+  }
+
+  /* Stats section padding */
+  .stats-section {
+    padding: 40px 16px !important;
+    border-radius: 16px !important;
+  }
+
+  /* Stats section titles smaller */
+  .stats-section > div:first-child > div:first-child {
+    font-size: 24px !important;
+  }
+
+  .stats-section > div:first-child > div:last-child {
+    font-size: 16px !important;
+  }
+
+  /* Stats cards - full width and smaller */
+  .stats-row {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  .stats-row .stat-card {
+    transform: none !important;
+    width: 100% !important;
+  }
+
+  .stats-row .stat-card > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 20px !important;
+    border-radius: 14px !important;
+  }
+
+  .stats-row .stat-card > div > div:first-child {
+    font-size: 36px !important;
+  }
+
+  /* Chats section */
+  .chats-section {
+    padding: 40px 16px !important;
+    border-radius: 16px !important;
+  }
+
+  .chats-section > div:first-child > div:first-child {
+    font-size: 24px !important;
+  }
+
+  .chats-section > div:first-child > div:last-child {
+    font-size: 16px !important;
+  }
+
+  /* Community section */
+  .community-section {
+    padding: 40px 16px !important;
+    border-radius: 16px !important;
+  }
+
+  /* Community cards - stack vertically */
+  .community-cards {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  .community-cards > div {
+    transform: none !important;
+  }
+
+  .community-cards > div > div {
+    padding: 20px 28px !important;
+    border-radius: 14px !important;
+  }
+
+  .community-cards > div > div > div:first-child {
+    font-size: 28px !important;
+  }
+
+  /* Pill buttons wrap */
+  .pill-row {
+    flex-wrap: wrap !important;
+    gap: 8px !important;
+  }
+
+  .pill-row a {
+    padding: 10px 18px !important;
+  }
+
+  /* O1EB1.com card section */
+  .o1eb1-section {
+    padding: 32px 16px !important;
+    border-radius: 16px !important;
+  }
+
+  .o1eb1-section > div {
+    padding: 24px !important;
+    border-radius: 16px !important;
+  }
+
+  .o1eb1-section > div > div:first-child {
+    font-size: 20px !important;
+  }
+
+  .o1eb1-section > div > div:nth-child(2) {
+    font-size: 14px !important;
+  }
+}

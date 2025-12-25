@@ -9,15 +9,15 @@ mode: "wide"
 
 {/* HERO — Stripe-style */}
 
-<div style={{position: 'relative', overflow: 'hidden', borderRadius: '24px', padding: '60px 48px', marginTop: '-20px', marginBottom: '20px', background: 'linear-gradient(135deg, #fef3e2 0%, #fce7f3 25%, #e0e7ff 50%, #ddd6fe 75%, #c7d2fe 100%)'}}>
-  <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px', alignItems: 'center'}}>
+<div className="hero-section" style={{position: 'relative', overflow: 'hidden', borderRadius: '24px', padding: '60px 48px', marginTop: '-20px', marginBottom: '20px', background: 'linear-gradient(135deg, #fef3e2 0%, #fce7f3 25%, #e0e7ff 50%, #ddd6fe 75%, #c7d2fe 100%)'}}>
+  <div className="hero-grid" style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px', alignItems: 'center'}}>
 
     {/* Left - Text */}
     <div>
-      <div style={{fontSize: '52px', fontWeight: '700', lineHeight: '1.1', letterSpacing: '-0.03em', color: '#0f172a', marginBottom: '24px'}}>
+      <div className="hero-title" style={{fontSize: '52px', fontWeight: '700', lineHeight: '1.1', letterSpacing: '-0.03em', color: '#0f172a', marginBottom: '24px'}}>
         База знаний<br/>по визам<br/><span style={{background: 'linear-gradient(135deg, #7c5cff, #ec4899)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>талантов</span>
       </div>
-      <p style={{fontSize: '18px', color: '#475569', lineHeight: '1.6', marginBottom: '32px', maxWidth: '400px'}}>
+      <p className="hero-desc" style={{fontSize: '18px', color: '#475569', lineHeight: '1.6', marginBottom: '32px', maxWidth: '400px'}}>
         108 историй успеха O-1 / EB-1A / NIW, разборы RFE, гид по административной проверке 221(g).
       </p>
       <div style={{display: 'flex', gap: '12px', flexWrap: 'wrap'}}>
@@ -27,7 +27,7 @@ mode: "wide"
     </div>
 
     {/* Right - Cards with connections */}
-    <div style={{position: 'relative', width: '100%', maxWidth: '480px', height: '420px'}}>
+    <div className="hero-cards" style={{position: 'relative', width: '100%', maxWidth: '480px', height: '420px'}}>
       {/* Glowing stars - между карточками, за ними (z-index: 0) */}
       {/* Центр - между всеми карточками */}
       <div style={{position: 'absolute', top: '45%', left: '42%', width: '6px', height: '6px', background: '#7c5cff', borderRadius: '50%', boxShadow: '0 0 20px #7c5cff', animation: 'dotPulse 3.5s ease-in-out infinite', zIndex: 0}}></div>
@@ -139,7 +139,7 @@ mode: "wide"
 </div>
 
 {/* Section 1: Истории успеха */}
-<div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center', padding: '48px 0'}}>
+<div className="section-grid" style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center', padding: '48px 0'}}>
   <div>
     <h2 style={{fontSize: '36px', fontWeight: '700', color: '#1A1A2E', lineHeight: '1.2', marginBottom: '16px'}}>108 реальных кейсов одобрений</h2>
     <p style={{fontSize: '18px', color: '#6B7280', lineHeight: '1.6', marginBottom: '24px'}}>Что собирали, как упаковывали доказательства, какие критерии использовали. 76% одобрено без RFE.</p>
@@ -168,7 +168,7 @@ mode: "wide"
 </div>
 
 {/* Section 2: База RFE/Denial */}
-<div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center', padding: '48px 0'}}>
+<div className="section-grid" style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center', padding: '48px 0'}}>
   <div style={{order: 2}}>
     <h2 style={{fontSize: '36px', fontWeight: '700', color: '#1A1A2E', lineHeight: '1.2', marginBottom: '16px'}}>241 разбор ошибок и отказов</h2>
     <p style={{fontSize: '18px', color: '#6B7280', lineHeight: '1.6', marginBottom: '24px'}}>Реальные RFE, NOID и отказы. Какие критерии засчитывают, какие нет. По центрам Небраска и Техас, по видам деятельности.</p>
@@ -202,7 +202,7 @@ mode: "wide"
 </div>
 
 {/* Section 3: Final Merits */}
-<div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center', padding: '48px 0'}}>
+<div className="section-grid" style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center', padding: '48px 0'}}>
   <div>
     <h2 style={{fontSize: '36px', fontWeight: '700', color: '#1A1A2E', lineHeight: '1.2', marginBottom: '16px'}}>Почему критериев недостаточно</h2>
     <p style={{fontSize: '18px', color: '#6B7280', lineHeight: '1.6', marginBottom: '24px'}}>Very top и Sustained acclaim: как офицеры обесценивают доказательства на втором этапе проверки.</p>
@@ -228,7 +228,7 @@ mode: "wide"
 </div>
 
 {/* Section 4: Админпроверка */}
-<div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center', padding: '48px 0', marginBottom: '32px'}}>
+<div className="section-grid" style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center', padding: '48px 0', marginBottom: '32px'}}>
   <div style={{order: 2}}>
     <h2 style={{fontSize: '36px', fontWeight: '700', color: '#1A1A2E', lineHeight: '1.2', marginBottom: '16px'}}>Самый большой FAQ по 221(g)</h2>
     <p style={{fontSize: '18px', color: '#6B7280', lineHeight: '1.6', marginBottom: '24px'}}>DS-5535, TAL/MANTIS, expedite запросы, mandamus, congressional inquiry. Всё в одном месте.</p>
@@ -261,13 +261,13 @@ mode: "wide"
 </div>
 
 {/* Stats - Scattered Tilted Cards */}
-<div style={{background: '#F9FAFB', borderRadius: '24px', padding: '60px 40px', marginBottom: '48px'}}>
+<div className="stats-section" style={{background: '#F9FAFB', borderRadius: '24px', padding: '60px 40px', marginBottom: '48px'}}>
   <div style={{textAlign: 'center', marginBottom: '40px'}}>
     <div style={{fontSize: '32px', fontWeight: '700', color: '#1A1A2E'}}>Библиотека «Истории успеха»</div>
     <div style={{fontSize: '24px', color: '#6B7280', marginTop: '12px'}}>Одна из крупнейших русскоязычных библиотек кейсов</div>
   </div>
 
-  <div style={{display: 'flex', gap: '16px', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', padding: '24px 0'}}>
+  <div className="stats-row" style={{display: 'flex', gap: '16px', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', padding: '24px 0'}}>
     {/* Large - Purple gradient */}
     <a href="success-stories/index" className="stat-card" style={{textDecoration: 'none', transform: 'rotate(-3deg) translateY(12px)'}}>
       <div style={{background: 'linear-gradient(135deg, #7c5cff 0%, #9d85ff 100%)', borderRadius: '20px', padding: '28px 20px', boxShadow: '0 12px 32px rgba(124,92,255,0.25)', width: '340px', textAlign: 'center'}}>
@@ -298,7 +298,7 @@ mode: "wide"
     </a>
   </div>
 
-  <div style={{display: 'flex', justifyContent: 'center', gap: '16px', marginTop: '32px', flexWrap: 'wrap'}}>
+  <div className="pill-row" style={{display: 'flex', justifyContent: 'center', gap: '16px', marginTop: '32px', flexWrap: 'wrap'}}>
     <a href="success-stories/by-visa/eb-1a" className="pill-btn" style={{padding: '12px 24px', background: '#1A1A2E', borderRadius: '24px', textDecoration: 'none'}}>
       <span style={{fontSize: '16px', fontWeight: '700', color: 'white'}}>EB-1A</span>
       <span style={{fontSize: '14px', color: 'rgba(255,255,255,0.7)', marginLeft: '10px'}}>79</span>
@@ -315,13 +315,13 @@ mode: "wide"
 </div>
 
 {/* Professional Chats - Scattered Cards */}
-<div style={{background: '#F9FAFB', borderRadius: '24px', padding: '60px 40px', marginBottom: '48px'}}>
+<div className="chats-section" style={{background: '#F9FAFB', borderRadius: '24px', padding: '60px 40px', marginBottom: '48px'}}>
   <div style={{textAlign: 'center', marginBottom: '40px'}}>
     <div style={{fontSize: '32px', fontWeight: '700', color: '#1A1A2E'}}>Профильные чаты</div>
     <div style={{fontSize: '24px', color: '#6B7280', marginTop: '12px'}}>12 главных чатов • 13,500+ участников</div>
   </div>
 
-  <div style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px'}}>
+  <div className="chat-grid" style={{display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px'}}>
     <a href="https://t.me/talentvisahelp" className="stat-card" style={{textDecoration: 'none'}}>
       <div style={{background: 'linear-gradient(135deg, #7c5cff 0%, #9d85ff 100%)', borderRadius: '16px', padding: '28px', boxShadow: '0 12px 32px rgba(124,92,255,0.25)', position: 'relative'}}>
         <div style={{position: 'absolute', top: '12px', right: '12px', fontSize: '11px', fontWeight: '600', color: '#1A1A2E', background: 'rgba(255,255,255,0.9)', padding: '4px 8px', borderRadius: '6px'}}>Главный чат</div>
@@ -385,7 +385,7 @@ mode: "wide"
 </div>
 
 {/* O1EB1.com Card */}
-<div style={{background: '#F9FAFB', borderRadius: '24px', padding: '48px', marginBottom: '48px'}}>
+<div className="o1eb1-section" style={{background: '#F9FAFB', borderRadius: '24px', padding: '48px', marginBottom: '48px'}}>
   <div style={{maxWidth: '600px', margin: '0 auto', background: 'white', borderRadius: '20px', padding: '40px', border: '1px solid #E5E7EB', textAlign: 'center'}}>
     <div style={{fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: '#1A1A2E'}}>O1EB1.com</div>
     <div style={{fontSize: '16px', color: '#6B7280', marginBottom: '20px', lineHeight: '1.7'}}>Полный гид по O-1 / EB-1A / EB-2 NIW: критерии, письма, самоподача, консульство, 221(g), чек-листы и примеры.</div>
@@ -399,17 +399,17 @@ mode: "wide"
 </div>
 
 {/* Community Section */}
-<div style={{background: '#F9FAFB', borderRadius: '24px', padding: '60px 40px', textAlign: 'center'}}>
+<div className="community-section" style={{background: '#F9FAFB', borderRadius: '24px', padding: '60px 40px', textAlign: 'center'}}>
   <div style={{fontSize: '28px', fontWeight: '700', marginBottom: '12px', color: '#1A1A2E'}}>Сообщество</div>
   <div style={{fontSize: '15px', color: '#6B7280', marginBottom: '40px', lineHeight: '1.6', maxWidth: '500px', margin: '0 auto 40px'}}>
     Регулярные созвоны: каждую среду уже 3 года подряд + воскресный созвон на кофе.
   </div>
 
-  <div style={{display: 'flex', justifyContent: 'center', gap: '24px', marginBottom: '44px', flexWrap: 'wrap', alignItems: 'center', padding: '16px 0'}}>
+  <div className="community-cards" style={{display: 'flex', justifyContent: 'center', gap: '24px', marginBottom: '44px', flexWrap: 'wrap', alignItems: 'center', padding: '16px 0'}}>
     {/* Large - Purple gradient */}
     <div style={{transform: 'rotate(-4deg) translateY(12px)'}}>
       <div style={{background: 'linear-gradient(135deg, #7c5cff 0%, #9d85ff 100%)', borderRadius: '20px', padding: '32px 44px', boxShadow: '0 12px 32px rgba(124,92,255,0.25)'}}>
-        <div style={{fontSize: '42px', fontWeight: '800', color: 'white', fontStyle: 'italic'}}>13,000+</div>
+        <div style={{fontSize: '42px', fontWeight: '800', color: 'white', fontStyle: 'italic'}}>13,500+</div>
         <div style={{fontSize: '13px', fontWeight: '600', textTransform: 'uppercase', color: 'rgba(255,255,255,0.85)', marginTop: '8px'}}>участников</div>
       </div>
     </div>
