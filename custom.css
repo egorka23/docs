@@ -516,6 +516,8 @@ main > div > div {
     width: 24px !important;
     fill: white !important;
     color: white !important;
+    margin: 0 auto !important;
+    display: block !important;
   }
   /* Hero section padding */
   .hero-section {
