@@ -493,10 +493,13 @@ main > div > div {
   button[class*="lg:hidden"] {
     background: #7c5cff !important;
     border-radius: 10px !important;
-    padding: 10px 12px !important;
-    height: auto !important;
-    width: auto !important;
-    max-width: fit-content !important;
+    padding: 10px 14px !important;
+    height: 44px !important;
+    width: 50px !important;
+    min-width: 50px !important;
+    max-width: 50px !important;
+    flex: 0 0 50px !important;
+    justify-content: center !important;
   }
 
   button.lg\:hidden div,
@@ -506,8 +509,8 @@ main > div > div {
 
   button.lg\:hidden svg,
   button[class*="lg:hidden"] svg {
-    height: 22px !important;
-    width: 22px !important;
+    height: 24px !important;
+    width: 24px !important;
     fill: white !important;
     color: white !important;
   }
