@@ -137,7 +137,7 @@
   "layout": {
     "contentWidth": "default"
   },
-  "analytics": {
+  "integrations": {
     "ga4": {
       "measurementId": "G-3GZ9ZEMRDM"
     }
