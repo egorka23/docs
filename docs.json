@@ -131,6 +131,11 @@
   "search": {
     "prompt": "Поиск по базе знаний..."
   },
+  "assistantConfig": {
+    "enableAskAiButton": true,
+    "enableStarterQuestions": true,
+    "enableAskAiSearchBar": true
+  },
   "seo": {
     "indexHiddenPages": false
   },
