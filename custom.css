@@ -493,12 +493,14 @@ main > div > div {
   button[class*="lg:hidden"] {
     background: #7c5cff !important;
     border-radius: 10px !important;
-    padding: 10px 14px !important;
+    padding: 10px !important;
     height: 44px !important;
-    width: 50px !important;
-    min-width: 50px !important;
-    max-width: 50px !important;
-    flex: 0 0 50px !important;
+    width: 44px !important;
+    min-width: 44px !important;
+    max-width: 44px !important;
+    flex: 0 0 44px !important;
+    display: flex !important;
+    align-items: center !important;
     justify-content: center !important;
     margin-left: 8px !important;
   }
