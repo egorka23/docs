@@ -500,6 +500,7 @@ main > div > div {
     max-width: 50px !important;
     flex: 0 0 50px !important;
     justify-content: center !important;
+    margin-left: 8px !important;
   }
 
   button.lg\:hidden div,
