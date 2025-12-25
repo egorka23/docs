@@ -27,7 +27,7 @@
     btn.rel = 'noopener noreferrer';
 
     btn.innerHTML = `
-      <div style="width: 12px; height: 12px; background: #22c55e; border-radius: 50%; box-shadow: 0 0 14px #22c55e; animation: aiPulse 1.5s ease-in-out infinite;"></div>
+      <div style="width: 14px; height: 14px; background: #a3e635; border-radius: 50%; box-shadow: 0 0 18px #a3e635, 0 0 30px #84cc16; animation: aiPulse 1.2s ease-in-out infinite;"></div>
       <div>
         <div style="font-size: 15px; font-weight: 700; color: #a3e635;">AI-помощник по EB-1</div>
         <div style="font-size: 11px; color: rgba(255,255,255,0.8); font-weight: 500;">бесплатно • онлайн</div>
