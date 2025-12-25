@@ -302,6 +302,17 @@ details a:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
 }
 
+/* Dark CTA buttons hover effect */
+.dark-cta {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease !important;
+}
+
+.dark-cta:hover {
+  background: #1e293b !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25) !important;
+}
+
 /* Glowing dots animation - appear then pulse forever */
 @keyframes dotAppear {
   0% {
