@@ -142,5 +142,10 @@
       "measurementId": "G-3GZ9ZEMRDM"
     }
   },
+  "scripts": [
+    {
+      "src": "/scripts/ai-button.js"
+    }
+  ],
   "redirects": []
 }
