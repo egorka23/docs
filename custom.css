@@ -688,3 +688,135 @@ main > div > div {
     font-size: 14px !important;
   }
 }
+
+/* =====================================================
+   PAN/ZOOM CANVAS FULLSCREEN STYLES
+   ===================================================== */
+
+/* Panzoom container fullscreen */
+#panzoom-wrapper:fullscreen,
+#panzoom-wrapper:-webkit-full-screen {
+  background: #f5f5f5 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: column;
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
+#panzoom-wrapper:fullscreen #panzoom-container,
+#panzoom-wrapper:-webkit-full-screen #panzoom-container {
+  flex: 1;
+  height: calc(100vh - 60px) !important;
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+#panzoom-wrapper:fullscreen .panzoom-controls,
+#panzoom-wrapper:-webkit-full-screen .panzoom-controls {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px;
+  background: white;
+  border-top: 1px solid #e4e4e7;
+  z-index: 1000;
+}
+
+/* Miro embed fullscreen - hide "Open in Miro" link by clipping bottom */
+#miro-wrapper:fullscreen,
+#miro-wrapper:-webkit-full-screen {
+  background: white !important;
+}
+
+#miro-wrapper:fullscreen .miro-embed,
+#miro-wrapper:-webkit-full-screen .miro-embed {
+  height: 100vh !important;
+  border-radius: 0 !important;
+  border: none !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+#miro-wrapper:fullscreen .miro-embed iframe,
+#miro-wrapper:-webkit-full-screen .miro-embed iframe {
+  height: calc(100vh + 80px) !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+/* Miro embed normal mode - also hide link */
+.miro-embed {
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+.miro-embed iframe {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+/* Miro roadmap wrapper - hide footer by clipping */
+#miro-roadmap-wrapper {
+  position: relative !important;
+  overflow: hidden !important;
+  border-radius: 12px !important;
+  border: 1px solid #e5e7eb !important;
+  height: 550px !important;
+}
+
+#miro-roadmap-wrapper iframe {
+  width: 100% !important;
+  height: 650px !important;
+  border: none !important;
+}
+
+/* Miro roadmap fullscreen */
+#miro-roadmap-wrapper:fullscreen,
+#miro-roadmap-wrapper:-webkit-full-screen {
+  background: white !important;
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+#miro-roadmap-wrapper:fullscreen iframe,
+#miro-roadmap-wrapper:-webkit-full-screen iframe {
+  height: calc(100vh + 80px) !important;
+  margin-bottom: 0 !important;
+}
+
+/* Miro fullscreen button - bottom full width */
+#miro-roadmap-wrapper .miro-fullscreen-btn {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  padding: 14px 20px !important;
+  background: #7c5cff !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 0 0 12px 12px !important;
+  cursor: pointer !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  z-index: 10 !important;
+  transition: background 0.2s ease !important;
+}
+
+#miro-roadmap-wrapper .miro-fullscreen-btn:hover {
+  background: #6b4ce6 !important;
+}
+
+#miro-roadmap-wrapper:fullscreen .miro-fullscreen-btn,
+#miro-roadmap-wrapper:-webkit-full-screen .miro-fullscreen-btn {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  border-radius: 0 !important;
+}
