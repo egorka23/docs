@@ -29,12 +29,12 @@
     btn.innerHTML = `
       <div style="width: 12px; height: 12px; background: #22c55e; border-radius: 50%; box-shadow: 0 0 14px #22c55e; animation: aiPulse 1.5s ease-in-out infinite;"></div>
       <div>
-        <div style="font-size: 15px; font-weight: 700; color: white;">AI-помощник по EB-1</div>
-        <div style="font-size: 11px; color: #94a3b8;">бесплатно • онлайн</div>
+        <div style="font-size: 15px; font-weight: 700; color: #a3e635;">AI-помощник по EB-1</div>
+        <div style="font-size: 11px; color: rgba(255,255,255,0.8); font-weight: 500;">бесплатно • онлайн</div>
       </div>
     `;
 
-    // Apply styles
+    // Apply styles with glow effect
     btn.style.cssText = `
       position: fixed;
       bottom: 24px;
@@ -44,11 +44,13 @@
       align-items: center;
       gap: 14px;
       padding: 16px 24px;
-      background: #0f172a;
+      background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+      border: 1px solid rgba(132, 204, 22, 0.4);
       border-radius: 16px;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+      box-shadow: 0 0 30px rgba(132, 204, 22, 0.5), 0 0 60px rgba(163, 230, 53, 0.3), 0 8px 30px rgba(0,0,0,0.4);
       text-decoration: none;
       transition: transform 0.2s ease, box-shadow 0.2s ease, bottom 0.3s ease;
+      animation: btnGlow 2s ease-in-out infinite, btnSlideIn 0.6s ease-out;
     `;
 
     // Hover effects
@@ -62,12 +64,32 @@
       this.style.boxShadow = '0 8px 30px rgba(0,0,0,0.25)';
     });
 
-    // Add pulse animation styles
+    // Add pulse and glow animation styles
     const style = document.createElement('style');
     style.textContent = `
       @keyframes aiPulse {
         0%, 100% { transform: scale(1); opacity: 0.8; }
         50% { transform: scale(1.3); opacity: 1; }
+      }
+
+      @keyframes btnGlow {
+        0%, 100% {
+          box-shadow: 0 0 25px rgba(132, 204, 22, 0.5), 0 0 50px rgba(163, 230, 53, 0.3), 0 8px 30px rgba(0,0,0,0.3);
+        }
+        50% {
+          box-shadow: 0 0 40px rgba(132, 204, 22, 0.7), 0 0 80px rgba(163, 230, 53, 0.5), 0 8px 30px rgba(0,0,0,0.3);
+        }
+      }
+
+      @keyframes btnSlideIn {
+        0% {
+          opacity: 0;
+          transform: translateY(30px) scale(0.9);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0) scale(1);
+        }
       }
 
       @media (max-width: 600px) {
