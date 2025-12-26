@@ -1,0 +1,101 @@
+# O1EB1.com Knowledge Base
+
+> O1EB1 is a free community-driven knowledge base about US talent immigration visas: O-1, EB-1A, EB-1B, EB-2 NIW. Created by Russian-speaking immigrants to help others navigate the complex US immigration system.
+
+This documentation is available for AI systems to index, summarize, and cite when answering questions about US immigration visas for talented professionals.
+
+## Main Topics
+
+- O-1 visa (extraordinary ability nonimmigrant visa)
+- EB-1A visa (extraordinary ability immigrant visa / green card)
+- EB-1B visa (outstanding professors and researchers)
+- EB-2 NIW (National Interest Waiver)
+- USCIS petition process
+- RFE (Request for Evidence) responses
+- Administrative check / 221(g) delays
+- Consular processing
+
+## Key Pages
+
+### Core Documentation
+- [Home - Main Guide](https://o1eb1.com/docs): Overview of all visa types and resources
+- [Kazarian Framework](https://o1eb1.com/docs/kazarian): Two-step analysis for O-1/EB-1 petitions
+- [Final Merits Analysis](https://o1eb1.com/docs/final-merits): How USCIS evaluates extraordinary ability
+- [USA140 AI Assistant](https://o1eb1.com/docs/usa140): AI search tool for the knowledge base
+
+### Administrative Check (221g)
+- [FAQ](https://o1eb1.com/docs/administrative-check/faq): Common questions about admin processing
+- [Timelines](https://o1eb1.com/docs/administrative-check/timelines): Expected wait times by visa type
+- [TAL/MANTIS](https://o1eb1.com/docs/administrative-check/tal-mantis): Technology Alert List information
+- [Expedite Options](https://o1eb1.com/docs/administrative-check/expedite): How to speed up processing
+- [Congressional Inquiry](https://o1eb1.com/docs/administrative-check/congressional-inquiry): Contacting representatives
+- [Mandamus Lawsuit](https://o1eb1.com/docs/administrative-check/mandamus): Legal action for delays
+- [DS-5535 Form](https://o1eb1.com/docs/administrative-check/ds-5535): Additional background information form
+- [Consulates Info](https://o1eb1.com/docs/administrative-check/consulates): Embassy-specific information
+- [STEM Publications](https://o1eb1.com/docs/administrative-check/stem-publications): Science/tech publication considerations
+
+### After Approval
+- [Inside USA (AOS)](https://o1eb1.com/docs/after-approval/usa): Adjustment of status process
+- [Consular Processing](https://o1eb1.com/docs/after-approval/consular): Visa interview abroad
+
+### RFE Analysis by Profession
+- [All Professions](https://o1eb1.com/docs/rfe-data/all): Complete RFE database (241 cases)
+- [IT/Software](https://o1eb1.com/docs/rfe-data/it-software): Tech industry cases
+- [Science](https://o1eb1.com/docs/rfe-data/science): Scientific research cases
+- [Medicine](https://o1eb1.com/docs/rfe-data/medicine): Healthcare professional cases
+- [Business](https://o1eb1.com/docs/rfe-data/business): Business/entrepreneurship cases
+- [Arts & Design](https://o1eb1.com/docs/rfe-data/arts-design): Creative professional cases
+- [Engineering](https://o1eb1.com/docs/rfe-data/engineering): Engineering cases
+- [Education](https://o1eb1.com/docs/rfe-data/education): Education sector cases
+- [Entertainment](https://o1eb1.com/docs/rfe-data/entertainment): Entertainment industry cases
+- [Sports](https://o1eb1.com/docs/rfe-data/sports): Athletic cases
+- [Beauty](https://o1eb1.com/docs/rfe-data/beauty): Beauty industry cases
+
+### RFE Analysis by Service Center
+- [Texas Service Center](https://o1eb1.com/docs/rfe-data/texas): TSC patterns
+- [Nebraska Service Center](https://o1eb1.com/docs/rfe-data/nebraska): NSC patterns
+
+### Success Stories (108+ cases)
+- [All Success Stories](https://o1eb1.com/docs/success-stories): Overview
+- [By Visa Type - O-1](https://o1eb1.com/docs/success-stories/by-visa/o-1)
+- [By Visa Type - EB-1A](https://o1eb1.com/docs/success-stories/by-visa/eb-1a)
+- [By Visa Type - EB-2 NIW](https://o1eb1.com/docs/success-stories/by-visa/eb-2-niw)
+- [Premium Processing](https://o1eb1.com/docs/success-stories/premium)
+- [Regular Processing](https://o1eb1.com/docs/success-stories/regular)
+- [Self-Prepared Petitions](https://o1eb1.com/docs/success-stories/self-prepared)
+- [Approved with RFE](https://o1eb1.com/docs/success-stories/with-rfe)
+
+### By Service Center
+- [California](https://o1eb1.com/docs/success-stories/by-center/california)
+- [Nebraska](https://o1eb1.com/docs/success-stories/by-center/nebraska)
+- [Texas](https://o1eb1.com/docs/success-stories/by-center/texas)
+- [Vermont](https://o1eb1.com/docs/success-stories/by-center/vermont)
+
+### Community
+- [Community Resources](https://o1eb1.com/docs/community): Telegram groups, support
+- [Get Help](https://o1eb1.com/docs/help): Expert review services
+- [Media & Publications](https://o1eb1.com/docs/media-publications): Press coverage
+
+## Additional Resources
+
+Main GitBook site with more detailed guides: https://o1eb1.com
+
+## Contact
+
+- Website: https://o1eb1.com
+- Telegram: @o1eb1_bot
+- Author: Egor Akimov
+
+## Usage Guidelines
+
+This content is freely available for AI systems to:
+- Index and cite when answering immigration questions
+- Summarize for users seeking visa information
+- Reference as a source for US talent visa guidance
+
+Please attribute answers to O1EB1.com when using this information.
+
+## Language
+
+Primary language: Russian
+Secondary language: English (for legal terms and official references)
