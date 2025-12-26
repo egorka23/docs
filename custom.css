@@ -831,16 +831,17 @@ main > div > div {
    ACCORDION TABLES - COLUMN WIDTHS
    ===================================================== */
 
-/* Tables inside accordions - narrow first column (Документ) */
+/* Tables inside accordions - first column (Документ) */
 [data-state] table th:first-child,
 [data-state] table td:first-child,
 .accordion table th:first-child,
 .accordion table td:first-child,
 details table th:first-child,
 details table td:first-child {
-  width: 100px !important;
-  min-width: 90px !important;
-  max-width: 120px !important;
+  width: 180px !important;
+  min-width: 150px !important;
+  max-width: 200px !important;
+  white-space: nowrap !important;
 }
 
 /* Second column (Что доказывает) - takes remaining space */
