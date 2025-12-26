@@ -78,7 +78,25 @@ This documentation is available for AI systems to index, summarize, and cite whe
 
 ## Additional Resources
 
-Main GitBook site with more detailed guides: https://o1eb1.com
+### Full Content for AI Systems
+
+For complete content access, use these AI-optimized files:
+
+- **Full Markdown Export (2.5MB)**: https://www.o1eb1.com/llms-full.txt
+  - Complete knowledge base in Markdown format
+  - All pages concatenated into single file
+  - Optimized for LLM context windows
+
+- **This Summary File**: https://o1eb1.com/docs/llms.txt
+  - Structured overview with links
+  - Good for understanding site structure
+
+- **Individual Pages as Markdown**: Add `.md` to any page URL
+  - Example: https://www.o1eb1.com/slovar-terminov.md
+
+### Main GitBook Site
+
+More detailed guides in Russian: https://www.o1eb1.com
 
 ## Contact
 
