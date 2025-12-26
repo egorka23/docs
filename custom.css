@@ -826,3 +826,41 @@ main > div > div {
   right: 0 !important;
   border-radius: 0 !important;
 }
+
+/* =====================================================
+   ACCORDION TABLES - NARROW FIRST COLUMN (№)
+   ===================================================== */
+
+/* Tables inside accordions - narrow № column */
+[data-state] table th:first-child,
+[data-state] table td:first-child,
+.accordion table th:first-child,
+.accordion table td:first-child,
+details table th:first-child,
+details table td:first-child {
+  width: 36px !important;
+  min-width: 36px !important;
+  max-width: 50px !important;
+  text-align: center !important;
+}
+
+/* Second column (Документ) - moderate width */
+[data-state] table th:nth-child(2),
+[data-state] table td:nth-child(2),
+.accordion table th:nth-child(2),
+.accordion table td:nth-child(2),
+details table th:nth-child(2),
+details table td:nth-child(2) {
+  width: 28% !important;
+  min-width: 120px !important;
+}
+
+/* Third column (Что доказывает) - takes remaining space */
+[data-state] table th:nth-child(3),
+[data-state] table td:nth-child(3),
+.accordion table th:nth-child(3),
+.accordion table td:nth-child(3),
+details table th:nth-child(3),
+details table td:nth-child(3) {
+  width: auto !important;
+}
