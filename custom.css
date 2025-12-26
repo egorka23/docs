@@ -838,9 +838,9 @@ main > div > div {
 .accordion table td:first-child,
 details table th:first-child,
 details table td:first-child {
-  width: 140px !important;
-  min-width: 120px !important;
-  max-width: 160px !important;
+  width: 100px !important;
+  min-width: 90px !important;
+  max-width: 120px !important;
 }
 
 /* Second column (Что доказывает) - takes remaining space */
