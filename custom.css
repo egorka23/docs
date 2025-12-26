@@ -853,3 +853,18 @@ details table th:nth-child(2),
 details table td:nth-child(2) {
   width: auto !important;
 }
+
+/* Mobile: Allow wrapping and smaller first column */
+@media (max-width: 600px) {
+  [data-state] table th:first-child,
+  [data-state] table td:first-child,
+  .accordion table th:first-child,
+  .accordion table td:first-child,
+  details table th:first-child,
+  details table td:first-child {
+    width: 120px !important;
+    min-width: 100px !important;
+    max-width: 140px !important;
+    white-space: normal !important;
+  }
+}
