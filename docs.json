@@ -3,6 +3,12 @@
   "theme": "almond",
   "name": "O1EB1",
   "css": "/custom.css",
+  "redirects": [
+    {
+      "source": "/guides",
+      "destination": "/guides/index"
+    }
+  ],
   "colors": {
     "primary": "#7c5cff",
     "light": "#9d85ff",
