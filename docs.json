@@ -23,6 +23,51 @@
         ]
       },
       {
+        "group": "ГИДЫ ПО ВИЗАМ",
+        "pages": [
+          "guides/index",
+          {
+            "group": "Виза O-1",
+            "icon": "passport",
+            "pages": [
+              "guides/visa-o1-2026",
+              "guides/kak-poluchit-vizu-o1",
+              "guides/stoimost-vizy-o1",
+              "guides/o1-bez-rabotodatelya",
+              "guides/chto-delat-pri-rfe"
+            ]
+          },
+          {
+            "group": "Грин-карта EB-1A",
+            "icon": "id-card",
+            "pages": [
+              "guides/eb1a-grin-karta"
+            ]
+          },
+          {
+            "group": "Сравнение виз",
+            "icon": "scale-balanced",
+            "pages": [
+              "guides/o1-vs-eb1-vs-niw"
+            ]
+          },
+          {
+            "group": "По профессиям",
+            "icon": "briefcase",
+            "pages": [
+              "guides/o1-dlya-it",
+              "guides/o1-dlya-uchenyh",
+              "guides/o1-dlya-biznesmenov",
+              "guides/o1-dlya-sportsmenov",
+              "guides/o1-dlya-marketologov",
+              "guides/o1-dlya-inzhenerov",
+              "guides/o1-dlya-beauty",
+              "guides/o1-dlya-tvorcheskih"
+            ]
+          }
+        ]
+      },
+      {
         "group": "ШАГ 1: КРИТЕРИИ",
         "pages": [
           "media-publications"
@@ -101,7 +146,8 @@
         "group": "ПОСЛЕ ОДОБРЕНИЯ I-140",
         "pages": [
           "after-approval/usa",
-          "after-approval/consular"
+          "after-approval/consular",
+          "after-approval/o1-documents"
         ]
       },
       {

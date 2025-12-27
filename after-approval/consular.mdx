@@ -851,16 +851,16 @@ icon: "passport"
 **Подробнее об административной проверке:**
 
 <CardGroup cols={2}>
-  <Card title="FAQ по админ проверке" icon="circle-question" href="/administrative-check/faq">
+  <Card title="FAQ по админ проверке" icon="circle-question" href="administrative-check/faq">
     Частые вопросы и ответы
   </Card>
-  <Card title="Сроки проверки" icon="clock" href="/administrative-check/timelines">
+  <Card title="Сроки проверки" icon="clock" href="administrative-check/timelines">
     Статистика и ожидаемые сроки
   </Card>
-  <Card title="DS-5535" icon="file-lines" href="/administrative-check/ds-5535">
+  <Card title="DS-5535" icon="file-lines" href="administrative-check/ds-5535">
     Как заполнять форму DS-5535
   </Card>
-  <Card title="TAL/MANTIS" icon="flask" href="/administrative-check/tal-mantis">
+  <Card title="TAL/MANTIS" icon="flask" href="administrative-check/tal-mantis">
     Проверка для STEM-специалистов
   </Card>
 </CardGroup>
@@ -897,3 +897,127 @@ icon: "passport"
 **Совет:** Начните собирать документы сразу после одобрения I-140. Получение справок о несудимости и медосмотр могут занять время.
 </Tip>
 
+<script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "Как пройти консульскую обработку после одобрения I-140",
+  "description": "Пошаговая инструкция: передача дела в NVC, оплата сборов, DS-260, сбор документов, медосмотр и интервью.",
+  "totalTime": "P6M",
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": "445"
+  },
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Передача кейса в NVC",
+      "text": "После одобрения I-140 USCIS отправляет материалы в National Visa Center. Ожидайте 2–4 недели, пока появится Case Number и Invoice ID."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Оплата сборов",
+      "text": "Зайдите на портала CEAC, введите Invoice ID и оплатите Immigrant Visa Fee ($325 за каждого) и Affidavit of Support Fee ($120 на семью)."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Заполнение DS-260",
+      "text": "Заполните DS-260 на английском языке для каждого члена семьи. Подготовьте адреса за 5 лет, образование, работу и ответы на вопросы безопасности."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Сбор документов",
+      "text": "Получите свидетельства о рождении, браке, справки о несудимости, переводы и, при необходимости, I-864. Сканируйте и загрузите их в CEAC."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Documentarily Qualified и ожидание интервью",
+      "text": "NVC проверяет пакет. После статуса Documentarily Qualified ждите назначения интервью (в среднем 4–7 месяцев в зависимости от консульства)."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Медосмотр",
+      "text": "Закажите медосмотр у аккредитованного врача за 2–4 недели до интервью. Подготовьте результаты прививок и оплачивайте услуги клиники."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Интервью и получение визы",
+      "text": "Возьмите оригиналы документов, результаты медосмотра и фотографии. После одобрения ждите паспорт с визой (1–2 недели) и ввозите конверт в США."
+    }
+  ]
+})}
+</script>
+
+<script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Что такое NVC и когда создаётся кейс?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "National Visa Center принимает дело после одобрения I-140. Обычно за 2–4 недели присваивается Case Number и Invoice ID, после чего можно платить сборы и заполнять DS-260."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Какие сборы нужно оплатить через CEAC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Immigrant Visa Fee ($325 за каждого заявителя) и Affidavit of Support Fee ($120 на семью). Оплата делается онлайн через CEAC, подтверждения сохраняйте."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Можно ли исправить заявку DS-260 после отправки?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да. Попросите NVC разблокировать форму (unlock), внесите изменения и отправьте заново. Это не ухудшает шансы."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Какие гражданские документы нужны для NVC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Свидетельства о рождении и браке с переводами, справки о несудимости из всех стран проживания после 16 лет, военный билет, документы о разводе. Всё переводится на английский."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Нужна ли форма I-864 для EB-1A?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Для EB-1A (self-petition) Affidavit of Support обычно не требуется. Достаточно показать квалификацию и потенциальный доход. I-864 запрашивают при family-sponsored делах."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Можно ли выбрать или поменять консульство?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Да. Предпочтительное консульство указывается при подаче в NVC. При необходимости можно запросить перенос (например, Варшава → Алматы), написав в конкретное консульство."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Что брать на интервью?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Оригиналы всех документов, результаты медосмотра, фото 2x2, распечатанный пакет документов из CEAC и любые дополнительные доказательства."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Что делать при административной проверке (221(g))?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Следуйте инструкциям офицера: загрузите запрошенные документы в CEAC или отправьте по почте, отслеживайте статус Refused/Administrative Processing и ждите уведомления о завершении."
+      }
+    }
+  ]
+})}
+</script>
