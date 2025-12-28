@@ -204,6 +204,9 @@
   "seo": {
     "indexHiddenPages": false
   },
+  "metadata": {
+    "og:locale": "ru_RU"
+  },
   "layout": {
     "contentWidth": "default"
   },
