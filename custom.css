@@ -828,6 +828,63 @@ main > div > div {
 }
 
 /* =====================================================
+   COLORED ACCORDIONS FOR CRITERIA
+   ===================================================== */
+
+/* Criterion 1 - Gold (Awards) */
+.criteria-section [data-state]:nth-of-type(1) > button,
+.criteria-section [data-state]:nth-of-type(2) > button {
+  border-left: 4px solid #f59e0b !important;
+}
+
+/* Criterion 2 - Blue (Membership) */
+.criteria-section [data-state]:nth-of-type(3) > button {
+  border-left: 4px solid #3b82f6 !important;
+}
+
+/* Criterion 3 - Purple (Media) */
+.criteria-section [data-state]:nth-of-type(4) > button,
+.criteria-section [data-state]:nth-of-type(5) > button {
+  border-left: 4px solid #8b5cf6 !important;
+}
+
+/* Criterion 4 - Green (Judging) */
+.criteria-section [data-state]:nth-of-type(6) > button {
+  border-left: 4px solid #10b981 !important;
+}
+
+/* Criterion 5 - Red (Original Contribution) */
+.criteria-section [data-state]:nth-of-type(7) > button,
+.criteria-section [data-state]:nth-of-type(8) > button {
+  border-left: 4px solid #ef4444 !important;
+}
+
+/* Criterion 6 - Teal (Publications) */
+.criteria-section [data-state]:nth-of-type(9) > button {
+  border-left: 4px solid #14b8a6 !important;
+}
+
+/* Criterion 7 - Indigo (Leading Role) */
+.criteria-section [data-state]:nth-of-type(10) > button {
+  border-left: 4px solid #6366f1 !important;
+}
+
+/* Criterion 8 - Emerald (High Salary) */
+.criteria-section [data-state]:nth-of-type(11) > button {
+  border-left: 4px solid #059669 !important;
+}
+
+/* All accordions in criteria - rounded left corners */
+.criteria-section [data-state] > button {
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.criteria-section [data-state] > button:hover {
+  transform: translateX(2px) !important;
+}
+
+/* =====================================================
    ACCORDION TABLES - COLUMN WIDTHS
    ===================================================== */
 
