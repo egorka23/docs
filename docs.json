@@ -202,10 +202,12 @@
     "enableAskAiSearchBar": true
   },
   "seo": {
-    "indexHiddenPages": false
+    "indexHiddenPages": false,
+    "robots": "noindex, nofollow"
   },
   "metadata": {
-    "og:locale": "ru_RU"
+    "og:locale": "ru_RU",
+    "robots": "noindex, nofollow"
   },
   "layout": {
     "contentWidth": "default"
