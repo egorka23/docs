@@ -74,54 +74,6 @@
         ]
       },
       {
-        "group": "ИСТОРИИ УСПЕХА",
-        "pages": [
-          "success-stories/index",
-          "success-stories/cases-preview",
-          "success-stories/premium",
-          "success-stories/regular",
-          "success-stories/self-prepared",
-          "success-stories/with-rfe",
-          "success-stories/by-visa/eb-1a",
-          "success-stories/by-visa/eb-2-niw",
-          "success-stories/by-visa/o-1",
-          "success-stories/by-center/nebraska",
-          "success-stories/by-center/texas",
-          "success-stories/by-center/california",
-          "success-stories/by-center/vermont"
-        ]
-      },
-      {
-        "group": "БАЗА ДАННЫХ RFE",
-        "pages": [
-          "rfe-data/all",
-          {
-            "group": "По центру",
-            "icon": "building-columns",
-            "pages": [
-              "rfe-data/nebraska",
-              "rfe-data/texas"
-            ]
-          },
-          {
-            "group": "По профессии",
-            "icon": "briefcase",
-            "pages": [
-              "rfe-data/it-software",
-              "rfe-data/business",
-              "rfe-data/arts-design",
-              "rfe-data/science",
-              "rfe-data/medicine",
-              "rfe-data/engineering",
-              "rfe-data/entertainment",
-              "rfe-data/sports",
-              "rfe-data/education",
-              "rfe-data/beauty"
-            ]
-          }
-        ]
-      },
-      {
         "group": "ПОСЛЕ ОДОБРЕНИЯ I-140",
         "pages": [
           "after-approval/usa",
