@@ -81,14 +81,6 @@
           "after-approval/o1-documents"
         ]
       },
-      {
-        "group": "СООБЩЕСТВО",
-        "pages": [
-          "community",
-          "usa140",
-          "help"
-        ]
-      }
     ]
   },
   "navbar": {
